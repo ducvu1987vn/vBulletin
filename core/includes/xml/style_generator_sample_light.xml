@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<style name="Base Generator Light" vbversion="4.0.5" product="vbulletin" type="custom">
+	<stylevardfns>
+	</stylevardfns>
+	<stylevars>
+		<stylevar name="announcement_background" colCat="sec-0" />
+		<stylevar name="announcement_border" colCat="sec-1" />
+		<stylevar name="body_background" colCat="pri-0" />
+		<stylevar name="button_primary_background" colCat="pri-2" />
+		<stylevar name="button_primary_border" colCat="pri-4" />
+		<stylevar name="button_primary_border_hover" colCat="pri-3" />
+		<stylevar name="button_primary_light_background" colCat="sec-3" />
+		<stylevar name="button_primary_light_border" colCat="sec-0" />
+		<stylevar name="button_primary_light_border_hover" colCat="sec-1" />
+		<stylevar name="button_secondary_background" colCat="sec-2" />
+		<stylevar name="button_secondary_border" colCat="sec-0" />
+		<stylevar name="button_secondary_border_hover" colCat="sec-1" />
+		<stylevar name="button_special_background" colCat="sec-4" />
+		<stylevar name="button_special_border" colCat="pri-3" />
+		<stylevar name="button_special_border_hover" colCat="pri-2" />
+		<stylevar name="comment_background" colCat="sec-2" />
+		<stylevar name="comment_divider_color" colCat="sec-1" />
+		<stylevar name="content_entry_box_tab_border" colCat="sec-0" />
+		<stylevar name="footer_background" colCat="pri-2" />
+		<stylevar name="form_background" colCat="sec-2" />
+		<stylevar name="form_border" colCat="sec-1" />
+		<stylevar name="header_background" colCat="pri-0" />
+		<stylevar name="header_subtabbar_border" colCat="pri-3" />
+		<stylevar name="header_tab_background" colCat="pri-2" />
+		<stylevar name="header_tab_background_active" colCat="pri-1" />
+		<stylevar name="header_tab_background_hover" colCat="pri-4" />
+		<stylevar name="header_tab_border_active" colCat="pri-3" />
+		<stylevar name="header_tabbar_background" colCat="pri-2" />
+		<stylevar name="header_tabbar_border" colCat="pri-3" />
+		<stylevar name="list_item_background" colCat="pri-1" />
+		<stylevar name="module_content_background" colCat="sec-2" />
+		<stylevar name="module_content_border" colCat="sec-1" />
+		<stylevar name="module_header_background" colCat="sec-0" />
+		<stylevar name="module_header_border" colCat="sec-1" />
+		<stylevar name="module_tab_background" colCat="sec-2" />
+		<stylevar name="module_tab_background_active" colCat="sec-0" />
+		<stylevar name="module_tab_border" colCat="sec-1" />
+		<stylevar name="module_tab_border_active" colCat="sec-1" />
+		<stylevar name="no_content_background" colCat="pri-1" />
+		<stylevar name="notice_background" colCat="sec-0" />
+		<stylevar name="notice_border" colCat="sec-1" />
+		<stylevar name="popup_background" colCat="sec-2" />
+		<stylevar name="popup_border" colCat="sec-1" />
+		<stylevar name="popup_header_background" colCat="sec-0" />
+		<stylevar name="post_border" colCat="pri-3" />
+		<stylevar name="postbit_background" colCat="pri-4" />
+		<stylevar name="primary_module_border" colCat="sec-1" />
+		<stylevar name="primary_module_subheader_background" colCat="sec-0" />
+		<stylevar name="primary_module_subheader_border" colCat="sec-1" />
+		<stylevar name="profile_content_background" colCat="pri-1" />
+		<stylevar name="side_nav_background" colCat="sec-2" />
+		<stylevar name="side_nav_background_active" colCat="sec-0" />
+		<stylevar name="side_nav_background_hover" colCat="sec-0" />
+		<stylevar name="side_nav_border" colCat="sec-1" />
+		<stylevar name="side_nav_item_border_bottom" colCat="sec-1" />
+		<stylevar name="thread_reply_background" colCat="pri-1" />
+		<stylevar name="thread_starter_background" colCat="sec-2" />
+		<stylevar name="toolbar_background" colCat="pri-4" />
+		<stylevar name="toolbar_border" colCat="pri-3" />
+		<stylevar name="toolbar_button_border" colCat="sec-1" />
+		<stylevar name="toolbar_dropdown_background_gradient_end" colCat="pri-4" />
+		<stylevar name="toolbar_dropdown_border" colCat="pri-3" />
+		<stylevar name="wrapper_background" colCat="pri-1" />
+	</stylevars>
+</style>

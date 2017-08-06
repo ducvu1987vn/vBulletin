@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- vBulletin 5.0.0 Beta 21 -->
+<video_bbcode>
+	<provider tagoption="hulu">
+		<title>Hulu</title>
+		<url>http://www.hulu.com</url>
+		<regex_url><![CDATA[http:\/\/www\.hulu\.com\/watch\/]]></regex_url>
+		<regex_scrape><![CDATA[<link rel="video_src" href="http://www.hulu.com/embed/([^"]+)"]]></regex_scrape>
+		<embed><![CDATA[<object class="restrain" type="application/x-shockwave-flash" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />512</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />296</vb:if>" data="http://www.hulu.com/embed/{vb:raw code}">
+	<param name="movie" value="http://www.hulu.com/embed/{vb:raw code}" />
+	<param name="wmode" value="{vb:raw vboptions.player_wmode}" />
+	<!--[if IE 6]>
+	<embed width="512" height="296" type="application/x-shockwave-flash" src="http://www.hulu.com/embed/{vb:raw code}" />
+	<![endif]--></object>]]></embed>
+	</provider>
+	<provider tagoption="youtube">
+		<title>YouTube (Long)</title>
+		<url>http://www.youtube.com</url>
+		<regex_url><![CDATA[https?:\/\/www\.youtube\.com\/watch\?.*v=([a-z0-9-_]+)]]></regex_url>
+		<regex_scrape></regex_scrape>
+		<embed><![CDATA[<iframe class="restrain" title="YouTube video player" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />640</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />390</vb:if>" src="//www.youtube.com/embed/{vb:raw code}?wmode={vb:raw vboptions.player_wmode}&autoplay=1"></iframe>]]></embed>
+	</provider>
+	<provider tagoption="youtube_share">
+		<title>YouTube (Short)</title>
+		<url>http://youtu.be</url>
+		<regex_url><![CDATA[http:\/\/youtu\.be\/([a-z0-9\-_]+)]]></regex_url>
+		<regex_scrape></regex_scrape>
+		<embed><![CDATA[<iframe class="restrain" title="YouTube video player" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />640</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />390</vb:if>" src="//www.youtube.com/embed/{vb:raw code}?wmode={vb:raw vboptions.player_wmode}&autoplay=1"></iframe>]]></embed>
+	</provider>
+	<provider tagoption="vimeo">
+		<title>Vimeo</title>
+		<url>http://www.vimeo.com</url>
+		<regex_url><![CDATA[http:\/\/(?:www\.)?vimeo\.com\/([0-9]+)]]></regex_url>
+		<regex_scrape></regex_scrape>
+		<embed><![CDATA[<object class="restrain" type="application/x-shockwave-flash" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />640</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />360</vb:if>" data="http://vimeo.com/moogaloop.swf?clip_id={vb:raw code}&autoplay=1">
+	<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id={vb:raw code}" />
+	<param name="wmode" value="{vb:raw vboptions.player_wmode}" />
+	<!--[if IE 6]>
+	<embed width="640" height="360" type="application/x-shockwave-flash" src="http://vimeo.com/moogaloop.swf?clip_id={vb:raw code}&autoplay=1" />
+	<![endif]--></object>]]></embed>
+	</provider>
+	<provider tagoption="dailymotion">
+		<title>Dailymotion</title>
+		<url>http://www.dailymotion.com</url>
+		<regex_url><![CDATA[http:\/\/www\.dailymotion\.com(?:\/[^\/]+)?\/video\/([a-z0-9]+)]]></regex_url>
+		<regex_scrape></regex_scrape>
+		<embed><![CDATA[<object class="restrain" type="application/x-shockwave-flash" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />420</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />339</vb:if>" data="http://www.dailymotion.com/swf/{vb:raw code}?autoPlay=1">
+	<param name="movie" value="http://www.dailymotion.com/swf/{vb:raw code}" />
+	<param name="wmode" value="{vb:raw vboptions.player_wmode}" />
+	<!--[if IE 6]>
+	<embed width="420" height="339" type="application/x-shockwave-flash" src="http://www.dailymotion.com/swf/{vb:raw code}?autoPlay=1" />
+	<![endif]--></object>]]></embed>
+	</provider>
+	<provider tagoption="metacafe">
+		<title>Metacafe</title>
+		<url>http://www.metacafe.com</url>
+		<regex_url><![CDATA[http:\/\/www\.metacafe\.com\/watch\/([0-9a-z_\-\/]+)]]></regex_url>
+		<regex_scrape></regex_scrape>
+		<embed><![CDATA[<object class="restrain" type="application/x-shockwave-flash" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />400</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />345</vb:if>" data="http://www.metacafe.com/fplayer/{vb:raw code}.swf">
+	<param name="movie" value="http://www.metacafe.com/fplayer/{vb:raw code}.swf" />
+	<param name="wmode" value="{vb:raw vboptions.player_wmode}" />
+	<param name="flashVars" value="playerVars=autoPlay=yes" />
+	<!--[if IE 6]>
+	<embed width="400" height="345" type="application/x-shockwave-flash" src="http://www.metacafe.com/fplayer/{vb:raw code}.swf" flashVars="playerVars=autoPlay=yes"/>
+	<![endif]--></object>]]></embed>
+	</provider>
+	<provider tagoption="google">
+		<title>Google</title>
+		<url>http://video.google.com</url>
+		<regex_url><![CDATA[http:\/\/video\.google\.com\/videoplay\?docid=([0-9\-]+)]]></regex_url>
+		<regex_scrape></regex_scrape>
+		<embed><![CDATA[<object class="restrain" type="application/x-shockwave-flash" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />400</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />326</vb:if>" data="http://video.google.com/googleplayer.swf?docid={vb:raw code}&autoplay=1">
+	<param name="movie" value="http://video.google.com/googleplayer.swf?docid={vb:raw code}" />
+	<param name="wmode" value="{vb:raw vboptions.player_wmode}" />
+	<!--[if IE 6]>
+	<embed width="400" height="326" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docid={vb:raw code}&autoplay=1" />
+	<![endif]--></object>]]></embed>
+	</provider>
+	<provider tagoption="facebook">
+		<title>facebook</title>
+		<url>http://www.facebook.com</url>
+		<regex_url><![CDATA[https?:\/\/www\.facebook\.com\/(?:video\/video|photo)\.php\?v=([0-9]+)]]></regex_url>
+		<regex_scrape></regex_scrape>
+		<embed><![CDATA[<object class="restrain" type="application/x-shockwave-flash" width="<vb:if condition="isset($width) AND $width > 0">{vb:raw width}<vb:else />576</vb:if>" height="<vb:if condition="$height">{vb:raw height}<vb:else />432</vb:if>" data="http://www.facebook.com/v/{vb:raw code}">
+	<param name="movie" value="http://www.facebook.com/v/{vb:raw code}" />
+	<param name="wmode" value="{vb:raw vboptions.player_wmode}" />
+	<!--[if IE 6]>
+	<embed width="576" height="432" type="application/x-shockwave-flash" src="http://www.facebook.com/v/{vb:raw code}" />
+	<![endif]--></object>]]></embed>
+	</provider>
+</video_bbcode>

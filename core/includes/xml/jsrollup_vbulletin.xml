@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<js product="vbulletin">
+	<rollup name="header-rollup.js">
+		<template>js/modernizr.min.js</template>
+	</rollup>
+	<rollup name="footer-rollup.js">
+		<template>js/jquery/jquery-ui-1.8.14.custom.min.js</template>
+		<template>js/jquery/jquery.cookie.min.js</template>
+		<template>js/jquery/jquery.condense.custom.min.js</template>
+		<template>js/responsive.js</template>
+		<template>js/global.js</template>
+		<template>js/jquery/jquery.qtip.min.js</template>
+		<template>js/jquery/jquery-ui-timepicker-addon.min.js</template>
+		<template>js/jquery/jquery-ui-timepicker-slider-access-addon.min.js</template>		
+		<template>js/jquery/jquery.selectBox.min.js</template>
+		<template>js/jquery/jquery.placeholder.min.js</template>
+		<template>js/jquery/jquery.form.min.js</template>
+		<template>js/jquery/jquery.elastic-1.6.11.custom.min.js</template>    
+		<template>js/jquery/jquery.jcarousel.custom.min.js</template>		
+		<template>js/jquery/jquery.tmpl.min.js</template>
+		<template>js/blueimp/jquery.iframe-transport.min.js</template>
+		<template>js/blueimp/jquery.fileupload.min.js</template>
+		<template>js/blueimp/jquery.fileupload-ui.min.js</template>
+		<template>js/fileupload.js</template>
+		<template>js/autocomplete.js</template>
+		<template>js/poll.js</template>
+		<template>js/video.js</template>
+		<template>js/vbSlideshow.js</template>
+		<template>js/conversation_filter.js</template>
+		<template>js/channel_conversation.js</template>
+		<template>js/link.js</template>
+		<template>js/tag-editor.js</template>
+		<template>js/media.js</template>
+		<template>js/sb_activity.js</template>
+		<template>js/hv.js</template>
+	</rollup>
+	<rollup name="profile-sidebar-rollup.js">
+		<template>js/profile.js</template>
+		<template>js/jquery/jquery.imgareaselect.pack.js</template>
+	</rollup>
+	<rollup name="groupadmin-rollup.js">
+		<template>js/sb_groupadmin.js</template>
+		<template>js/group_summary.js</template>
+	</rollup>
+	<rollup name="blogadmin-rollup.js">
+		<template>js/sb_blogadmin.js</template>
+		<template>js/blog_summary.js</template>
+	</rollup>
+	<rollup name="subscription-rollup.js">
+		<template>js/subscription.js</template>
+		<template>js/subscribers.js</template>
+	</rollup>
+	<rollup name="admin-sitebuilder-rollup.js">
+		<template>js/jquery/jquery.thumbnail-radio-checkbox.min.js</template>
+		<template>js/jquery/jquery.tinyscrollbar.custom.min.js</template>
+		<template>js/sb_page.js</template>
+		<template>js/vbulletin_stylegenerator.js</template>
+		<template>js/vbulletin_stylegeneratorcolor.js</template>
+		<template>js/jquery/datatables/js/jquery.dataTables.min.js</template>
+	</rollup>
+	<rollup name="profile-custom-edit-rollup.js">
+		<template>js/colorpicker.min.js</template>
+		<template>js/vbColorPicker.js</template>
+		<template>js/profile_customization.js</template>
+	</rollup>
+	<rollup name="ckeditor-rollup.js">
+		<template>js/content_entry_box.js</template>
+		<template>js/ckeditor/ckeditor.js</template>
+		<template>js/ckeditor/adapters/jquery.js</template>
+		<template>js/ckeditor.js</template>
+	</rollup>
+</js>

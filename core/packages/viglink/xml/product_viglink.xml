@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<product productid="viglink" active="0">
+	<title>VigLink</title>
+	<description>The easiest way to monetize your content. VigLink automatically affiliates your links and provides stats.</description>
+	<version>5.0.0</version>
+	<url></url>
+	<versioncheckurl></versioncheckurl>
+	<dependencies>
+		<dependency dependencytype="vbulletin" minversion="5.0.0" maxversion="" />
+	</dependencies>
+	<codes>
+		<code version="*">
+			<installcode />
+			<uninstallcode />
+		</code>
+	</codes>
+	<templates>
+		<template name="viglink_install_javascript" templatetype="template" date="1296471680" username="VigLink" version="5.0.0 Alpha"><![CDATA[
+      {vb:data viglink_enabled,     site, isViglinkEnabled}
+      {vb:data viglink_lii_enabled, site, isViglinkEnabled, 2}
+      {vb:data viglink_key,         site, getViglinkKey}
+      {vb:data viglink_version,     site, getViglinkVersion}
+
+      <vb:if condition="$viglink_enabled">
+        <vb:if condition="!$viglink_lii_enabled">
+          <script type="text/javascript">
+            (function($) {
+              if($) {
+                $(document).ready(function() {
+                  $("body").addClass("nolinks");
+                });
+              }
+            }(jQuery) );
+          </script>
+        </vb:if>
+
+        <!-- VigLink for vBulletin v{vb:raw viglink_version}: http://viglink.com -->
+        <script type="text/javascript">
+          var vglnk = { api_url: '//api.viglink.com/api', key: '{vb:raw viglink_key}' };
+          (function(d, t) {
+            var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+            s.src = ('https:' == document.location.protocol ? vglnk.api_url : '//cdn.viglink.com/api') + '/vglnk.js';
+            var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+          }(document, 'script'));
+        </script>
+        <!-- end VigLink -->
+      </vb:if>
+    ]]></template>
+	</templates>
+	<stylevardfns>
+	</stylevardfns>
+	<stylevars>
+	</stylevars>
+	<hooks>
+		<hook>
+			<hookname>footer_end</hookname>
+			<title>VigLink: Install the JavaScript Library</title>
+			<active>1</active>
+			<hookorder>10</hookorder>
+			<template>viglink_install_javascript</template>
+			<arguments />
+		</hook>
+	</hooks>
+	<phrases>
+		<phrasetype name="Control Panel Global" fieldname="cpglobal">
+			<phrase name="viglink_description" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[          <h3>Automatic Link Affiliation</h3>
+          <p>
+            You don't have to create special links or sign
+            up for dozens of affiliate accounts. If someone links from your
+            forum to a site with a supported affiliate program, VigLink
+            automatically affiliates the link.
+          </p>
+          <h3>Link Insertion</h3>
+          <p>
+            Optionally, you can turn on VigLink link insertion. With link
+            insertion, we'll analyze the pages on your forum looking for
+            unlinked products, and link them to the best merchant.
+          </p>]]></phrase>
+			<phrase name="viglink_enabled_desc" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Useful if you'd like to temporarily disable VigLink globally]]></phrase>
+			<phrase name="viglink_enabled_label" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Enable VigLink]]></phrase>
+			<phrase name="viglink_general_settings_header" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[General Settings]]></phrase>
+			<phrase name="viglink_group_settings_header" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Enable Link Insertion by Usergroup]]></phrase>
+			<phrase name="viglink_intro_header" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Getting Started with VigLink]]></phrase>
+			<phrase name="viglink_key_desc" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Need your API key?
+          <a href="http://www.viglink.com/account/keys" target="_blank">Log in</a> at viglink.com,
+          or <a href="http://www.viglink.com/users/signup?vgref=vb5" target="_blank">sign up</a> for a free account.]]></phrase>
+			<phrase name="viglink_key_label" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[API Key]]></phrase>
+			<phrase name="viglink_lii_excluded_usergroups_desc" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Disable link insertion for users in these groups.]]></phrase>
+			<phrase name="viglink_lii_excluded_usergroups_label" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Insertion: Excluded User Groups]]></phrase>
+			<phrase name="viglink_options_header" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[VigLink Options]]></phrase>
+			<phrase name="viglink_summary" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[        <p>
+          With support for over 30,000 merchants,
+          <a href="http://www.viglink.com/" target="_blank">VigLink</a>
+          is the easiest way to monetize your forum.
+        </p>]]></phrase>
+			<phrase name="viglink_unlink" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[          <dfn>
+            <a href="?do=2,3" class="confirm">Unlink</a> this account. (This will also disable VigLink.)
+          </dfn>]]></phrase>
+		</phrasetype>
+		<phrasetype name="GLOBAL" fieldname="global">
+			<phrase name="viglink_gcphome" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[VigLink]]></phrase>
+			<phrase name="viglink_settings_menu_label" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[VigLink Manager]]></phrase>
+		</phrasetype>
+		<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+			<phrase name="setting_viglink_enabled_desc" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Useful if you'd like to temporarily disable VigLink globally]]></phrase>
+			<phrase name="setting_viglink_enabled_title" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[VigLink Enable VigLink]]></phrase>
+			<phrase name="setting_viglink_key_desc" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Need your API key?
+          <a href="http://www.viglink.com/account/keys" target="_blank">Log in</a> at viglink.com,
+          or <a href="http://www.viglink.com/users/signup?vgref=vb5" target="_blank">sign up</a> for a free account.]]></phrase>
+			<phrase name="setting_viglink_key_title" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[VigLink API Key]]></phrase>
+			<phrase name="setting_viglink_lii_excluded_usergroups_desc" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[Disable link insertion for users in these groups.]]></phrase>
+			<phrase name="setting_viglink_lii_excluded_usergroups_title" date="1295907623" username="VigLink" version="5.0.0 Alpha"><![CDATA[VigLink Insertion: Excluded User Groups]]></phrase>
+		</phrasetype>
+	</phrases>
+	<options>
+		<settinggroup name="version" displayorder="0">
+			<setting varname="viglink_enabled" displayorder="20010">
+				<datatype>boolean</datatype>
+				<optioncode>yesno</optioncode>
+				<defaultvalue>1</defaultvalue>
+			</setting>
+			<setting varname="viglink_key" displayorder="20010">
+				<datatype>free</datatype>
+			</setting>
+			<setting varname="viglink_lii_excluded_usergroups" displayorder="20010">
+				<datatype>free</datatype>
+			</setting>
+		</settinggroup>
+	</options>
+	<helptopics>
+	</helptopics>
+	<cronentries>
+	</cronentries>
+	<faqentries>
+	</faqentries>
+	<widgets>
+	</widgets>
+</product>

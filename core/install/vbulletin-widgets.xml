@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<widgets product="vbulletin">
+	<widget guid="vbulletin-widget_1-4eb423cfd68cd8.93414606">
+		<title>Static HTML</title>
+		<template>widget_statichtml</template>
+		<icon>module-icon-html.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Generic</category>
+		<cloneable>1</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>title</name>
+				<label>Title</label>
+				<defaultvalue>Unconfigured Static HTML Widget</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>LongText</field>
+				<name>html</name>
+				<label>HTML</label>
+				<defaultvalue>Static HTML Widget Content</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_2-4eb423cfd691d6.44840082">
+		<title>Video</title>
+		<template>widget_video</template>
+		<icon>module-icon-video.png</icon>
+		<isthirdparty>1</isthirdparty>
+		<category>Generic</category>
+		<cloneable>1</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>title</name>
+				<label>Video Title</label>
+				<defaultvalue>Video Title</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>url</name>
+				<label>Video Link</label>
+				<defaultvalue>http://</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_4-4eb423cfd69899.61732480">
+		<title>Activity Stream</title>
+		<template>widget_activitystream</template>
+		<admintemplate>admin_widget_activitystream</admintemplate>
+		<icon>module-icon-activitystream.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Generic</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>0</canbemultiple>
+		<definitions>
+			<definition>
+				<field>ChannelSetup</field>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Stream View Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>10</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>filter_new_topics</name>
+				<label>Show Stream View New Topics</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>11</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_show</name>
+				<label>My Subscriptions Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>13</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_follow</name>
+				<label>My Subscriptions Subscribed Filter</label>
+				<defaultvalue>follow_all_activity</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>14</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:3:{s:19:"follow_all_activity";s:3:"All";s:15:"follow_contents";s:13:"Contents Only";s:14:"follow_channel";s:12:"Channel Only";}]]></data>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>display_tabs</name>
+				<label>Tabs to Display</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>20</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>tab_order</name>
+				<label>Tab Order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>21</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>25</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:0:{}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_activitystream</name>
+				<label>Latest Activity Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>30</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_activitystream</name>
+				<label>Latest Activity Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>35</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_activitystream</name>
+				<label>Latest Activity Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>38</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_subscribed</name>
+				<label>My Subscriptions Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>50</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_subscribed</name>
+				<label>My Subscriptions Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>55</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_subscribed</name>
+				<label>My Subscriptions Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>60</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_5-4eb423cfd69bf4.53144655">
+		<title>Channel Display</title>
+		<template>widget_channeldisplay</template>
+		<icon>module-icon-channel.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Stream View Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>15</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>filter_new_topics</name>
+				<label>Show Stream View New Topics</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>20</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>filter_depth</name>
+				<label>Show Sub-Forum(s)?</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>25</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_show</name>
+				<label>My Subscriptions Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>27</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_follow</name>
+				<label>My Subscriptions Subscribed Filter</label>
+				<defaultvalue>follow_all_activity</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>28</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:3:{s:19:"follow_all_activity";s:3:"All";s:15:"follow_contents";s:13:"Contents Only";s:14:"follow_channel";s:12:"Channel Only";}]]></data>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>display_tabs</name>
+				<label>Tabs to Display</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>30</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>tab_order</name>
+				<label>Tab Order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>31</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>35</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:0:{}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_activitystream</name>
+				<label>Latest Activity Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>40</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_activitystream</name>
+				<label>Latest Activity Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>45</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_activitystream</name>
+				<label>Latest Activity Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>38</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_topic</name>
+				<label>Topics Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>50</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_topic</name>
+				<label>Topics Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>55</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_topic</name>
+				<label>Topics Date Range</label>
+				<defaultvalue>time_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>48</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>sort_topic</name>
+				<label>Topics Sort By</label>
+				<defaultvalue>lastcontent</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>56</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:5:{s:11:"lastcontent";s:18:"Date - last update";s:7:"created";s:19:"Date - started post";s:7:"replies";s:7:"Replies";s:5:"title";s:5:"Title";s:6:"author";s:7:"Members";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>order_topic</name>
+				<label>Topics Sort Order</label>
+				<defaultvalue>desc</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>57</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:2:{s:4:"desc";s:10:"Descending";s:3:"asc";s:9:"Ascending";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_subscribed</name>
+				<label>My Subscriptions Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>60</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_subscribed</name>
+				<label>My Subscriptions Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>65</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_subscribed</name>
+				<label>My Subscriptions Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>60</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_6-4eb423cfd69f41.95279534">
+		<title>Conversation Display</title>
+		<template>widget_conversationdisplay</template>
+		<icon>module-icon-channel.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Results per Page</label>
+				<!-- //@TODO: Remove the default value 5 below. This is for dev purposes only for easy testing -->
+				<!-- <defaultvalue>5</defaultvalue> -->
+				<!-- //@TODO: Uncomment this default value 15. This is the prod value -->
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>commentsPerPage</name>
+				<label>Comments per Page in a Post (for Thread View only)</label>
+				<!-- //@TODO: Remove the default value 5 below. This is for dev purposes only for easy testing -->
+				<!-- <default>5</default> -->
+				<!-- //@TODO: Uncomment this default value 25. This is the prod value -->
+				<default>25</default>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>initialCommentsPerPage</name>
+				<label>Initial Comments per Page in a Post (for Thread View only)</label>
+				<defaultvalue>3</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_sort_stream</name>
+				<label>Sort By Filter (for Stream View)</label>
+				<defaultvalue>sort_recent</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:3:{s:11:"sort_recent";s:11:"Most Recent";s:12:"sort_popular";s:12:"Sort Popular";s:13:"sort_featured";s:13:"Sort Featured";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_time</name>
+				<label>Time Filter</label>
+				<defaultvalue>time_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";s:8:"time_all";s:8:"All time";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>10</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:0:{}]]></data>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_7-4eb423cfd6a2a9.88882814">
+		<title>Sub-Channels Display</title>
+		<template>widget_subchannelsdisplay</template>
+		<icon>module-icon-channel.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_search-4eb423cfd6a5f3.08329785">
+		<title>Search</title>
+		<template>widget_search</template>
+		<icon>module-icon-search.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Generic</category>
+		<cloneable>1</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>searchTitle</name>
+				<label>Widget Title</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Number of results at once</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>LongText</field>
+				<name>searchJSON</name>
+				<label>Search Filters - JSON</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>4</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_9-4eb423cfd6a956.90724117">
+		<title>Online Users</title>
+		<template>widget_onlineusers</template>
+		<icon>module-icon-onlineusers.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Statistics</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>displayAvatars</name>
+				<label>Display Avatars?</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxUsers</name>
+				<label>Max online users to show:</label>
+				<defaultvalue>20</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>thisPageOnly</name>
+				<label>Show Users For This Page Only?</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_search_criteria-4eb423cfd6aca9.42470675">
+		<title>Search Criteria</title>
+		<template>widget_search_criteria</template>
+		<icon>module-icon-search.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>searchCriteriaTitle</name>
+				<label>WidgetTitle</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>thisPageOnly</name>
+				<label>Show Users For This Page Only?</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_11-4eb423cfd6b002.64783616">
+		<title>Register</title>
+		<template>widget_register</template>
+		<icon>module-icon-register.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_12-4eb423cfd6b362.34901422">
+		<title>Online User Details</title>
+		<template>widget_onlineuserdetails</template>
+		<icon>module-icon-onlineusers.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Results per Page</label>
+				<defaultvalue>10</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>thisPageOnly</name>
+				<label>Show Users For This Page Only?</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>WOLguests</name>
+				<label>Display Guest (non-registered user) activity on Who's Online?</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>WOLresolve</name>
+				<label>Resolve IP addresses for those who have access to view them?</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>WOLrefresh</name>
+				<label>Time period in seconds to refresh the Who's Online display (A value of 0 disables the auto-refresh)</label>
+				<defaultvalue>60</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>4</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_13-4eb423cfd6b6b0.89761798">
+		<title>Tag Cloud</title>
+		<template>widget_tagcloud</template>
+		<icon>module-icon-tagcloud.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Statistics</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>tagCloudTitle</name>
+				<label>WidgetTitle</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_search_results-4eb423cfd6ba10.05943316">
+		<title>Search Results</title>
+		<template>widget_search_results</template>
+		<icon>module-icon-search.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>searchResultTitle</name>
+				<label>WidgetTitle</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_15-4eb423cfd6bd63.20171439">
+		<title>PHP</title>
+		<template>widget_php</template>
+		<icon>module-icon-php.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Generic</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>title</name>
+				<label>Title</label>
+				<defaultvalue>Unconfigured PHP Widget</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>LongText</field>
+				<name>code</name>
+				<label>PHP Code</label>
+				<defaultvalue>PHP Widget Content</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_top_active_users-4eb423cfd6c0c8.67950126">
+		<title>Top Active Users</title>
+		<template>widget_top_active_users</template>
+		<icon>module-icon-topactiveusers.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Statistics</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxUsers</name>
+				<label>Max top online users to show:</label>
+				<defaultvalue>20</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_photos-4eb423cfd6c410.69095735">
+		<title>Edit Photos</title>
+		<template>widget_photos</template>
+		<icon>module-icon-photo.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_settings-4eb423cfd6d166.73559252">
+		<title>Settings</title>
+		<template>widget_settings</template>
+		<icon>module-icon-settings.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_profile-4eb423cfd6d4b0.24011159">
+		<title>Profile</title>
+		<template>widget_profile</template>
+		<icon>module-icon-profile.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>10</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_source</name>
+				<label>Source Filter</label>
+				<defaultvalue>source_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>15</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:3:{s:10:"source_all";s:3:"All";s:11:"source_user";s:9:"User Only";s:9:"source_vm";s:21:"Visitor Messages Only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_show</name>
+				<label>My Subscriptions Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>17</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_follow</name>
+				<label>My Subscriptions Subscribed Filter</label>
+				<defaultvalue>follow_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>18</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:10:"follow_all";s:3:"All";s:14:"follow_members";s:12:"Members Only";s:15:"follow_contents";s:13:"Contents Only";s:14:"follow_channel";s:12:"Channel Only";}]]></data>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>display_tabs</name>
+				<label>Tabs to Display</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>4</isrequired>
+				<displayorder>20</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>tab_order</name>
+				<label>Tab Order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>21</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>25</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_activitystream</name>
+				<label>Latest Activity Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>30</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_activitystream</name>
+				<label>Latest Activity Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>35</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_activitystream</name>
+				<label>Latest Activity Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>38</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_subscribed</name>
+				<label>My Subscriptions Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>40</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_subscribed</name>
+				<label>My Subscriptions Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>45</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_subscribed</name>
+				<label>My Subscriptions Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>60</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_media-4eb423cfd6d802.93687555">
+		<title>Media</title>
+		<template>widget_media</template>
+		<icon>module-icon-media.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Results per Page</label>
+				<defaultvalue>10</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_profile_sidebar-4eb423cfd6d811.94687666">
+		<title>Profile Sidebar</title>
+		<template>widget_profile_sidebar</template>
+		<icon>module-icon-profile.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_birthday-4eb423cfd6db59.51474795">
+		<title><![CDATA[Today's Birthday]]></title>
+		<template>widget_birthday</template>
+		<icon>module-icon-todaysbirthday.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Statistics</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_privatemessages-4eb423cfd6dea7.34930839">
+		<title>Private Message Display</title>
+		<template>widget_privatemessage_display</template>
+		<icon>module-icon-privatemessage.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Results per Page</label>
+				<defaultvalue>20</defaultvalue>
+				<isusereditable>0</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_subscription-4eb423cfd6dea7.34930840">
+		<title>Subscription</title>
+		<template>widget_subscription</template>
+		<icon>module-icon-subscriptions.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Results per Page</label>
+				<defaultvalue>10</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_privatemessages-4eb423cfd6dea7.34930841">
+		<title>Private Message Navigation</title>
+		<template>widget_privatemessage_navigation</template>
+		<icon>module-icon-privatemessage.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+	</widget>
+	<widget guid="vbulletin-widget_privatemessages-4eb423cfd6dea7.34930842">
+		<title>Private Message Search</title>
+		<template>widget_privatemessage_search</template>
+		<icon>module-icon-privatemessage.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+	</widget>
+	<widget guid="vbulletin-widget_privatemessages-4eb423cfd6dea7.34930843">
+		<title>Private Message Toolbar</title>
+		<template>widget_privatemessage_toolbar</template>
+		<icon>module-icon-privatemessage.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Results per Page</label>
+				<defaultvalue>20</defaultvalue>
+				<isusereditable>0</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_album-4eb423cfd6dea7.34930844">
+		<title>Album Detail</title>
+		<template>widget_album</template>
+		<icon>module-icon-albumdetails.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_announcement-4eb423cfd6dea7.34930845">
+		<title>Announcement</title>
+		<template>widget_announcement</template>
+		<icon>module-icon-announcements.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Display</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+	</widget>
+	<widget guid="vbulletin-widget_visitormessage-4eb423cfd6dea7.34930846">
+		<title>Visitor Messages Display</title>
+		<template>widget_visitormessage_display</template>
+		<icon>module-icon-privatemessage.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_forgot_password-4eb423cfd6dea7.34930847">
+		<title>Forgot Password</title>
+		<template>widget_forgot_password</template>
+		<icon>module-icon-password.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_blogadmin-4eb423cfd6dea7.34930848">
+		<title>Blog Admin</title>
+		<template>widget_blogadmin</template>
+		<icon>module-icon-blog.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_bloghome-4eb423cfd6dea7.34930849">
+		<title>Blog Home</title>
+		<template>widget_bloghome</template>
+		<icon>module-icon-blog.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_blogs</name>
+				<label>Blogs</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:2:{s:8:"show_all";s:3:"All";s:7:"show_my";s:13:"My Blog Posts";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>15</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_show</name>
+				<label>My Subscriptions Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>17</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_follow</name>
+				<label>My Subscriptions Subscribed Filter</label>
+				<defaultvalue>follow_all_activity</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>18</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:3:{s:19:"follow_all_activity";s:3:"All";s:15:"follow_contents";s:13:"Contents Only";s:14:"follow_channel";s:12:"Channel Only";}]]></data>
+			</definition>
+			<definition>
+				 <field>Custom</field>
+				 <name>display_tabs</name>
+				 <label>Tabs to Display</label>
+				 <isusereditable>1</isusereditable>
+				 <isrequired>1</isrequired>
+				 <displayorder>20</displayorder>
+				 <validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>tab_order</name>
+				<label>Tab Order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>21</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>25</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:0:{}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_activitystream</name>
+				<label>Blog Posts Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>30</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_activitystream</name>
+				<label>Blog Posts Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>35</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_activitystream</name>
+				<label>Blog Posts Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>38</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_subscribed</name>
+				<label>Subscribed Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>40</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_subscribed</name>
+				<label>Subscribed Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>45</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_subscribed</name>
+				<label>Subscribed Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>60</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_blogcategories-4eb423cfd6dea7.34930850">
+		<title>Blog Categories</title>
+		<template>widget_blogcategories</template>
+		<icon>module-icon-blog.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_blogsidebar-4eb423cfd6dea7.34930851">
+		<title>Blog Sidebar</title>
+		<template>widget_blogsidebar</template>
+		<icon>module-icon-blog.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>searchTitle</name>
+				<label>Widget Title</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Number of results at once</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<defaultvalue>60</defaultvalue>
+			</definition>
+			<definition>
+				<field>LongText</field>
+				<name>searchJSON</name>
+				<label>Search Filters - JSON</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>4</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_blogsummary-4eb423cfd6dea7.34930852">
+		<title>Blog Summary</title>
+		<template>widget_blogsummary</template>
+		<icon>module-icon-blog.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_blogchanneldisplay-4eb423cfd6dea7.34930853">
+		<title>Blog Channel Display</title>
+		<template>widget_blogchanneldisplay</template>
+		<icon>module-icon-channel.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>10</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_show</name>
+				<label>My Subscriptions Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>12</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_follow</name>
+				<label>My Subscriptions Subscribed Filter</label>
+				<defaultvalue>follow_all_activity</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>13</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:3:{s:19:"follow_all_activity";s:3:"All";s:15:"follow_contents";s:13:"Contents Only";s:14:"follow_channel";s:12:"Channel Only";}]]></data>
+			</definition>
+			<definition>
+				 <field>Custom</field>
+				 <name>display_tabs</name>
+				 <label>Tabs to Display</label>
+				 <isusereditable>1</isusereditable>
+				 <isrequired>1</isrequired>
+				 <displayorder>15</displayorder>
+				 <validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>tab_order</name>
+				<label>Tab Order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>16</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>20</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:0:{}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_activitystream</name>
+				<label>Latest Activity Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>25</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_activitystream</name>
+				<label>Latest Activity Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>30</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_activitystream</name>
+				<label>Latest Activity Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>33</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_subscribed</name>
+				<label>My Subscriptions Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>45</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_subscribed</name>
+				<label>My Subscriptions Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>50</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_subscribed</name>
+				<label>My Subscriptions Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>60</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_topic</name>
+				<label>Topics Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>40</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_topic</name>
+				<label>Topics Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>45</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_topic</name>
+				<label>Topics Date Range</label>
+				<defaultvalue>time_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>48</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_newcontent-4eb423cfd6dea7.34930855">
+		<title>New Content</title>
+		<template>widget_newcontent</template>
+		<icon>module-icon-channel.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_newcontent-4eb423cfd6dea7.34930856">
+		<title>Ad</title>
+		<template>widget_ad</template>
+		<icon>module-icon-ad.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>Display</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>title</name>
+				<label>Title</label>
+				<defaultvalue>Unconfigured Ad Widget</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>axd</name>
+				<label>Config Ad</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>10</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-contactus-4eb423cfd6dea7.34930857">
+		<title>Contact Us</title>
+		<template>widget_contactus</template>
+		<icon>module-icon-contact.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_sgadmin-4eb423cfd6dea7.34930858">
+		<title>Group Admin</title>
+		<template>widget_sgadmin</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_sghome-4eb423cfd6dea7.34930859">
+		<title>Group Home</title>
+		<template>widget_sghome</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Stream View Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>10</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>filter_new_topics</name>
+				<label>Show Stream View New Topics</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>15</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>display_tabs</name>
+				<label>Tabs to Display</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>20</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>tab_order</name>
+				<label>Tab Order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>21</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>25</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:0:{}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_activitystream</name>
+				<label>Latest Activity Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>30</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_activitystream</name>
+				<label>Latest Activity Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>35</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_activitystream</name>
+				<label>Latest Activity Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>38</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_groups</name>
+				<label>Groups Results per Page</label>
+				<defaultvalue>20</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>40</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_sgcategories-4eb423cfd6dea7.34930860">
+		<title>Group Categories</title>
+		<template>widget_sgcategories</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_sgsidebar-4eb423cfd6dea7.34930861">
+		<title>Group Sidebar</title>
+		<template>widget_sgsidebar</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>searchTitle</name>
+				<label>Widget Title</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Number of results at once</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<defaultvalue>60</defaultvalue>
+			</definition>
+			<definition>
+				<field>LongText</field>
+				<name>searchJSON</name>
+				<label>Search Filters - JSON</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>4</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_sgadmin-4eb423cfd6dea7.34930862">
+		<title>New Group</title>
+		<template>widget_sgnewentry</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_groupsummary-4eb423cfd6dea7.34930863">
+		<title>Group Summary</title>
+		<template>widget_groupsummary</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_groupnodes-4eb423cfd6dea7.34930864">
+		<title>Group Topic</title>
+		<template>widget_sgnodes</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+	</widget>
+	<widget guid="vbulletin-widget_sgcategorylist-4eb423cfd6dea7.34930865">
+		<title>Group Category Listing</title>
+		<template>widget_sgcategorylist</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>Text</field>
+				<name>resultsPerPage</name>
+				<label>Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_sgchanneldisplay-4eb423cfd6dea7.34930866">
+		<title>Group Channel Display</title>
+		<template>widget_sgchanneldisplay</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filter_show</name>
+				<label>Show Stream View Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>10</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>YesNo</field>
+				<name>filter_new_topics</name>
+				<label>Show Stream View New Topics</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>15</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_show</name>
+				<label>My Subscriptions Show Filter</label>
+				<defaultvalue>show_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>17</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:6:{s:8:"show_all";s:3:"All";s:12:"vBForum_Text";s:16:"Discussions only";s:15:"vBForum_Gallery";s:11:"Photos only";s:13:"vBForum_Video";s:11:"Videos only";s:12:"vBForum_Link";s:10:"Links only";s:12:"vBForum_Poll";s:10:"Polls only";}]]></data>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>subscriptions_filter_follow</name>
+				<label>My Subscriptions Subscribed Filter</label>
+				<defaultvalue>follow_all_activity</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>18</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:3:{s:19:"follow_all_activity";s:3:"All";s:15:"follow_contents";s:13:"Contents Only";s:14:"follow_channel";s:12:"Channel Only";}]]></data>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>display_tabs</name>
+				<label>Tabs to Display</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>20</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>tab_order</name>
+				<label>Tab Order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>21</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>default_tab</name>
+				<label>Default Tab</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>25</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:0:{}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_activitystream</name>
+				<label>Latest Activity Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>30</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_activitystream</name>
+				<label>Latest Activity Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>35</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_activitystream</name>
+				<label>Latest Activity Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>38</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_subscribed</name>
+				<label>My Subscriptions Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>50</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_subscribed</name>
+				<label>My Subscriptions Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>55</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_subscribed</name>
+				<label>My Subscriptions Date Range</label>
+				<defaultvalue>time_lastweek</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>60</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>resultsperpage_topic</name>
+				<label>Topics Results per Page</label>
+				<defaultvalue>15</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>40</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Text</field>
+				<name>maxpages_topic</name>
+				<label>Topics Max Pages</label>
+				<defaultvalue>4</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>45</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Select</field>
+				<name>filtertime_topic</name>
+				<label>Topics Date Range</label>
+				<defaultvalue>time_all</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>48</displayorder>
+				<validationtype>force_datatype</validationtype>
+				<data><![CDATA[a:4:{s:8:"time_all";s:8:"All Time";s:10:"time_today";s:5:"Today";s:13:"time_lastweek";s:9:"Last Week";s:14:"time_lastmonth";s:10:"Last Month";}]]></data>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_container-4eb423cfd6dea7.34930867">
+		<title>Container Module</title>
+		<template>widget_container</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>1</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>display_modules</name>
+				<label>Modules to Display</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>1</isrequired>
+				<displayorder>2</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+			<definition>
+				<field>Custom</field>
+				<name>display_order</name>
+				<label>Modules order</label>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>3</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_activate_user-4eb423cfd6dea7.34930868">
+		<title>Activate Your Account</title>
+		<template>widget_activate_user</template>
+		<icon>module-icon-activateuser.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_activate_user-4eb423cfd6dea7.34930869">
+		<title>Email Activation Codes</title>
+		<template>widget_activate_email</template>
+		<icon>module-icon-activateemail.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>1</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_page_title-4eb423cfd6dea7.34930870">
+		<title>Page Title</title>
+		<template>widget_pagetitle</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<definitions>
+			<definition>
+				<field>YesNo</field>
+				<name>hide_title</name>
+				<label>Hide Title</label>
+				<defaultvalue>0</defaultvalue>
+				<isusereditable>1</isusereditable>
+				<isrequired>0</isrequired>
+				<displayorder>5</displayorder>
+				<validationtype>force_datatype</validationtype>
+			</definition>
+		</definitions>
+	</widget>
+	<widget guid="vbulletin-widget_coppa_form-4eb423cfd6dea7.34930871">
+		<title>Coppa Permission Form</title>
+		<template>widget_coppa_form</template>
+		<icon>module-icon-default.png</icon>
+		<isthirdparty>0</isthirdparty>
+		<category>System</category>
+		<cloneable>0</cloneable>
+		<canbemultiple>1</canbemultiple>
+	</widget>
+</widgets>

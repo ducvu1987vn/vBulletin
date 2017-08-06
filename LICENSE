@@ -1,0 +1,759 @@
+<html>
+<head>
+	<title>vBulletin License Agreement</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<style type="text/css">
+
+/* vBulletin 3 CSS For Style 'vBulletin 3.0.0 RC Style' (styleid: 10) */
+body
+{
+	padding:0;
+	margin:0;
+	font: 12px  arial, sans-serif;
+}
+body a:link
+{
+	color: #00AED8;
+}
+body a:visited
+{
+	color: #00AED8;
+}
+body a:hover, body a:active
+{
+	color: #00AED8;
+}
+.page
+{
+	color: rgb(0, 0 ,0);
+	/*#BBC7CE*/
+}
+td, th, p, li
+{
+	/*font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;*/
+	/*color: #334D80; */
+}
+.tborder{
+	background: #ffffff;
+	border:1px solid #b4bcc7;
+}
+.tcat
+{
+	background: url(/images/admincp/admincp_modhd_back.png);
+	font-family:arial;
+	font-weight:bold;
+	font-size:14px;
+	color: #ffffff;
+	padding:5px 5px 5px 10px;
+	/*border: outset 2px #5A76A5;*/
+}
+.tcat a:link
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active
+{
+	color: #FFFF66;
+	text-decoration: underline;
+}
+.thead
+{
+	background-color:rgb(211,219,227);
+	color:rgb(39,70,88);
+	font-weight:bold;
+}
+.thead a:link
+{
+	color: #FFFFFF;
+}
+.thead a:visited
+{
+	color: #FFFFFF;
+}
+.thead a:hover, .thead a:active
+{
+	color: #FFFF00;
+}
+.tfoot
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.tfoot a:link
+{
+	color: #E0E0F6;
+}
+.tfoot a:visited
+{
+	color: #E0E0F6;
+}
+.tfoot a:hover, .tfoot a:active
+{
+	color: #FFFF66;
+}
+/*
+.alt1, .alt1Active
+{
+	background: #E1E4F2;
+	color: #000000;
+}
+.alt2, .alt2Active
+{
+	background: #F5F5FF;
+	color: #000000;
+}
+.alt3
+{
+	background: #D5D8E5;
+	color: #000000;
+}
+*/
+.wysiwyg
+{
+	background: #E1E4F2;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+textarea, .bginput
+{
+}
+.button
+{
+}
+select
+{
+}
+.smallfont
+{
+}
+.time
+{
+	color: #666686;
+}
+.navbar
+{
+	white-space: nowrap;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.tcat_collapsed
+{
+	color: white;
+	background: #4B6CA6 url(/images/gradients/tcatgrad_collapsed.gif);
+}
+.thead_collapsed
+{
+	color: white;
+	background: #334D80 url(/images/gradients/theadgrad_collapsed.gif);
+}
+.vbmenu_control
+{
+	background: #738FBF;
+	color: #FFFFFF;
+	padding: 4px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control a:visited, .vbmenu_control a:hover, .vbmenu_control a:active
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.alt1Active, .alt2Active
+{
+	/*behavior: url(clientscript/activecell.htc);*/
+}
+label
+{
+	cursor: default;
+}
+legend
+{
+	color: #22229C;
+}
+fieldset, fieldset td, fieldset p
+{
+}
+td.fieldsetleft
+{
+	width: 40%;
+	vertical-align: top;
+}
+phrase
+{
+	color: red;
+}
+.navbar_finallink
+{
+	/*margin-left: 8px;*/
+	display: block;
+	/*white-space: nowrap;*/
+}
+.vbmenu_popup
+{
+	background-color: menu;
+	border: solid 1px appworkspace;
+	text-align: left;
+	z-index: 10;
+	margin-bottom: 15px;
+}
+.vbmenu_popup td
+{
+	font-size: 11px;
+}
+.vbmenu_option
+{
+	background-color: #BBC7CE;
+	color: black;
+	white-space: nowrap;
+	cursor: hand;
+}
+.vbmenu_hilite
+{
+	background-color: #8A949E;
+	color: white;
+	white-space: nowrap;
+	cursor: hand;
+}
+.vbmenu_option a:link, .vbmenu_option a:visited
+{
+	color: #22229C;
+	text-decoration: none;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_hilite a:hover, .vbmenu_hilite a:active
+{
+	color: white;
+	text-decoration: none;
+}
+select
+{
+	z-index:-100;
+}
+.navbar .popupmenu > a.popupctrl {
+	background-image: url(/images/arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 16px;
+}
+.navbar .popupmenu  .popupbody{
+	display: none;
+	position: absolute;
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: left;
+	list-style: none;
+}
+.navbar .popupbody a{	
+}
+
+
+/* don't change the following... */
+img
+{
+	vertical-align: middle;
+}
+form
+{
+	display: inline;
+}
+.raised
+{
+	/*padding: 12px;
+	border: outset 2px;*/
+}
+
+.firstword
+{
+	font-weight: bold;
+}
+
+.boldphrase
+{
+	font-weight: bold;
+}
+.italicphrase
+{
+	font-style: italic;
+}
+
+.boldheading
+{
+	font-weight: bold;
+}
+
+.bulletheading
+{
+	background: #4B6CA6 url(/images/gradients/tcatgrad.gif);
+	color: #ffffff;
+	font-weight: bold;
+	border: solid 1px #D5D8E5;
+	padding: 4px;
+}
+
+.boldword
+{
+	font-weight: bold
+}
+
+.italicword
+{
+	font-style: italic;
+}
+
+.asterics
+{
+	color: red;
+}
+
+.invoicebody
+{
+	background: #FFFFFF;
+}
+
+.invoicepage
+{
+	background: #FFFFFF;
+	border: solid 1px black;
+}
+
+.invoicebg
+{
+	background: #FFFFFF;
+	color: #000000;
+	font-size: 11px;
+}
+
+.invoicethead
+{
+	background: #EEEEEE;
+	color: #000000;
+	font-weight: bold;
+}
+
+.offlinethead
+{
+	background: #FFFFFF;
+	color: #000000;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.redphrase
+{
+	color: #FF0000
+}
+
+.groove
+{
+	width: 210px;
+	background: #8A949E;
+	border:  inset 1px #BBC7CE;
+	padding: 8px;
+	text-align: center;
+}
+.bullettype
+{
+	list-style-type: square;
+}
+.orderstep
+{
+	font: bold 12pt verdana;
+}
+
+div.tborder
+{
+	padding: 1px;
+}
+div.tcat
+{
+	padding: 4px;
+	font-weight: bold;
+	font-size: 10pt;
+}
+div.thead
+{
+	padding: 4px;
+	font-weight: bold;
+}
+div.alt1, div.alt2
+{
+	padding: 6px;
+}
+
+#loading{
+	display: none;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	text-align: center;
+}
+
+#loading p{
+	position: absolute;
+	margin: -45px -100px 0 0;
+	top: 50%;
+	left: 50%;
+	height: 90px;
+	width: 200px;
+	padding: 50px 0 0;
+}
+
+.hidden {
+	display: none;
+}
+
+ul.submit-error {
+	color: #F00;
+}
+
+
+/* Header ================================================================================ */
+.logo { float:left; }
+.header-container {border-bottom:1px solid #bcbaba; background:url(/images/admincp/vb_mainnav_bckg.png) 50% 0 repeat; 
+position:relative;
+-moz-box-shadow: 0px 0px 5px #000000;
+-webkit-box-shadow: 0px 0px 5px #000000;
+box-shadow: 0px 0px 5px #000000;
+}
+.header { width:960px; height:62px; margin:0 auto; padding:0 0 0 0; text-align:left; position:relative; z-index:10;}
+.header .logo { float:left; margin:15px 0 10px 10px; text-decoration:none !important; }
+.header .logo strong { position:absolute; top:-999em; left:-999em; width:0; height:0; font-size:0; line-height:0; text-indent:-999em; overflow:hidden; }
+.header h1.logo { margin:0; }
+.header .quick-access { float:left; width:820px; padding:5px 0 0 0; }
+.header .welcome-msg { margin:0;  text-align:right; }
+.header .welcome-msg a {  }
+.header .form-search { position:absolute; top:0; right:29px; width:315px; height:30px; background:url(/images/admincp/bkg_form-search.gif) 0 0 no-repeat; padding:1px 0 0 16px; }
+.header .form-search label { float:left; width:24px; height:21px; text-align:left; text-indent:-999em; overflow:hidden; }
+.header .form-search input.input-text { float:left; border-color:#5c7989; width:209px; margin-right:4px; }
+.header .form-search button.button { float:left; }
+.header .form-search button.button span { border:0; height:21px; background:url(/images/admincp/btn_search.gif) 0 0 no-repeat; padding:0 0 0 3px; font:bold 11px/21px Tahoma, Verdana, Arial, sans-serif; }
+.header .form-search button.button span span { background-position:100% 0; padding:0 6px 0 3px; }
+.header .form-search .search-autocomplete { z-index:999; left:40px !important; top:22px !important; }
+.header .form-search .search-autocomplete ul { border:1px solid #5c7989; background-color:#f9f5f0; }
+.header .form-search .search-autocomplete li { text-align:left; border-bottom:1px solid #f4eee7; padding:2px 8px 1px 8px; cursor:pointer; }
+.header .form-search .search-autocomplete li .amount { float:right; font-weight:bold; }
+.header .form-search .search-autocomplete li.odd { background-color:#fffefb; }
+.header .form-search .search-autocomplete li.selected { background-color:#f7e8dd; }
+.header .form-language { clear:both; padding:5px 0 0; text-align:right; }
+.header .form-language label { font-weight:bold; padding-right:5px; color:#a7c6dd; vertical-align:middle; }
+.header .form-language select { padding:0; }
+.header .form-language select.flags option { background-position:4px 50%; background-repeat:no-repeat; padding-left:25px; }
+.header .links { float:left; margin:0 0 6px 75px; }
+.header .links li { float:left; font-size:13px; background:url(/images/admincp/bkg_pipe1.gif) 100% 60% no-repeat; padding:0 21px 0 21px; }
+.header .links a { color:#001c32; text-decoration:none;}
+.header .links a:hover { color:#009dcb; }
+.header-container .top-container { clear:both; padding:35px 10px 0 12px; text-align:right; }
+.header-container .top-container a { font-size:11px; color:#ebbc58; }
+/* ======================================================================================= */
+
+.guest-select {width:305px !important;}
+
+#vbnavbarMenu{
+	position:absolute;
+	left:0;
+}
+#vbnavbar {
+	list-display:none;
+	font-family: 'Ubuntu', sans-serif;
+	float:left; 
+	margin:15px 0 0 0;
+	padding-left: 210px;
+	width: 770px;
+	
+   	
+}
+
+#vbnavbar div.divider {
+	border-left: #001c32 dotted 1px;
+	height: 15px;
+	margin: 5px 0 2px 0;
+}
+#vbnavbar li {
+	margin-right:33px;
+	float: left;
+	display:inline;
+}
+#vbnavbar li.omega-menu {
+	margin-right:0;
+}
+#vbnavbar li.active {
+	background: url("/images/admincp/header_active_arrow.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#vbnavbar li.active a {
+	color: #009dcb;
+}
+	
+#vbnavbar li a {
+   font-size:13px;
+   text-decoration: none; 
+   color: #001c32;
+   font-weight: bold;
+}
+#vbnavbar li a:hover {
+   color: #009dcb; }
+#vbnavbar li ul {
+   display: none;  }
+
+#content-container{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:40px;
+}
+#content-bg-container{
+	width:100%;
+	background:url("/images/admincp/main-background.png") repeat-x scroll 50% 0 #EFEFEF
+}
+/********/
+#members_sidemenu{
+	width:181px;
+	border:1px solid #B4BCC7;
+	color:#dee1e3;
+	margin-left:10px;
+}
+#members_sidemenu td{
+}
+
+#members_sidemenu td.thead
+{
+	padding-left:10px;
+	font-weight:bold;
+	font-size:12px;
+	color:#fff;
+	background-image: url('/images/admincp/admincp_lnav_btn_active.png');
+	height:26px;
+}
+
+#members_sidemenu .alt1, #members_sidemenu .alt2 {
+	background-color:#fff;
+	font-face: arial;
+	font-size:11px;
+	color:#000c1d;
+	padding-left:15px;
+}
+
+#members_sidemenu .alt2 a:hover {
+}
+
+/* normal stuff */
+#main-content, #content-container table tr td:first-child + td {
+	padding-left:20px;
+	width:100%;
+}
+#main-content table.tborder{
+	width:767px;
+}
+#grey-footer {
+	margin-top:35px;
+}
+.tborder .alt1,.tborder .alt2 {
+	background: #ffffff;
+	padding-left:12px;
+	padding-right:12px;	
+}
+.tborder .thead {
+	background: url('/images/admincp/admincp_modtitle_back.png');
+	font-face:arial;
+	font-weight:bold;
+	font-size:12px;
+	color:#262d35;
+	padding-left:15px;
+}
+.tborder .tfoot{
+	background-color:rgb(0,174,216);
+}
+.tborder .tfoot a{
+	color:#fff;
+	text-decoration:none;
+}
+body div div.tfoot {
+	height:56px;
+	background-color:rgb(44,72,89);
+	font-size:12;
+	font-weight:normal;
+	color:#a8abb1;
+	padding: 6px 20px;
+}
+
+body div div.tfoot div {
+	margin-top:22px;
+}
+
+#license-table td.alt1 {
+	background-color:rgb(245,245,245);
+}
+#license-table td.alt2 {
+	background-color:#fff;
+}
+/*
+#customer-info {
+	border:none;
+}
+*/
+fieldset {
+	border:none;
+}
+input#ebulletin{
+	margin:0;
+	padding:0;
+}	
+	</style>
+</head>
+<body>
+
+<div id="terms-wrapper">
+<h1>vBulletin Solutions, Inc.<br />
+Software License Agreement</h1>
+<p>
+This Software License Agreement (this "Agreement") is between you (either an individual or an entity, referred to hereinafter as "you" or "your") and vBulletin Solutions, Inc., a wholly-owned subsidiary of Internet Brands, Inc., and its affiliates and resellers ("vBulletin Solutions", "we", "our" or "us") for the vBulletin software that accompanies this Agreement, as may be updated or replaced by feature enhancements, software updates or maintenance releases including the vBulletin 5.x Connect Software, any previously released vBulletin Software under a different version, vBulletin Mobile Suite, the vBulletin Facebook application, the Forum Runner application, related explanatory written materials and files ("Documentation"), and any other add-ons or related products (together, the "Software") and any services, including but not limited to Mobile Annual Support, Forum Support, Phone and Ticket Support, and Professional Install/Upgrade, that may be provided by vBulletin Solutions under this Agreement (together, "Services").
+</p><p>
+By copying, installing, downloading, or using all or any portion of the Software, you accept all the terms and conditions of this Agreement. vBulletin Solutions owns all intellectual property in the Software. If you do not agree to the terms of this Agreement, do not use the Software. This Agreement is enforceable against you and any legal entity that obtained the Software and on whose behalf it is used. 
+</p>
+<h2>1.	Software License.</h2>
+<p>
+IMPORTANT NOTICE: If you are domiciled in the European Union ("E.U."), please refer to Section 19 for specific provisions related to the Software and the License. 
+</p><p>
+Provided you comply with the term and conditions of this Agreement and have paid the applicable license fees, vBulletin Solutions grants you a revocable, non-exclusive, non-transferable, , worldwide, limited license to install, download and use a single instance of the Software on a single website domain in a manner consistent with its designs and Documentation as further set forth below and not for purposes of resale or re-compilation, re-distribution, re-syndication, time sharing or use for the benefit for any third-party (the "License"). Upon vBulletin Solutions’ receipt of the applicable license fees, a unique license number will be issued to you. 
+</p><p>
+1.1 Limited Use. You may not transfer, rent, sublicense, assign, lease, loan, resell for profit, redistribute, encumber, publish or otherwise share the Software (or related materials based upon the Software or any part thereof) without the prior written consent of vBulletin Solutions. You must not use the Software other than as permitted by the License or in a manner inconsistent with its design and Documentation. If you are domiciled in the E.U., please refer to Section 19.
+</p><p>
+1.2 Notices. The Software must contain vBulletin Solutions’ copyright and other proprietary notices that appear on or in the Software, unless a Branding Free License is purchased.
+</p><p>
+1.3 Illegal Activity. You may not use the Software to engage in or allow others to engage in any illegal activity where the Software is accessed and/or used. You may not use the Software to engage in any activity that will violate the rights of third parties, including, without limitation, through the use, public display, public performance, reproduction, distribution, or modification of communications or materials that infringe copyrights, trademarks, publicity rights, privacy rights, other proprietary rights, or rights against defamation of third parties.
+</p><p>
+1.4 Domain Use. The Software may only be used on a single website domain. Any modification of the Software intended to circumvent the foregoing is prohibited and will result in revocation of the License. Notwithstanding the foregoing, the License may be transferred to another domain with vBulletin Solutions’ prior written consent and a transfer fee subject to the vBulletin Solutions then current fees. 
+</p><p>
+1.5 Need for Content licenses. The License provides no rights with respect to any content that may be reproduced, encoded, distributed, transmitted, performed, or otherwise used in connection with the Software. You are responsible for ensuring that any content is properly used in accordance with applicable laws and the rights of any third party with respect to such content. 
+</p><p>
+1.6 Backup Copy. You may make one (1) copy of the Software in machine-readable form for backup purposes only; provided that the backup copy must include all copyright or other proprietary notices contained on the original. You may only use the backup copy if the original copy of the Software is no longer usable and the only way to use the Software is to reinstall the Software by use of the backup copy. Any permitted copy of the Software that you make must contain the same copyright and other proprietary notices that appear on or in the Software, unless a Branding Free License is purchased.
+</p><p>
+1.7 Test Copy. You may make one (1) additional temporary test copy for the purpose of testing code, template and database modifications. Such a test copy must not be made available to the general public at any time. 
+</p><p>
+1.8 Modification of the Code. You may modify the Software source code; provided, however, you may not rent, sublicense, assign, lease, loan, resell for profit, distribute, publish or otherwise share the Software or related materials or derivative works based upon the Software or any part thereof without the prior written consent of vBulletin Solutions. If you are domiciled in the E.U., please refer to Section 19.
+</p><p>
+1.9 Pre-release Software Additional Terms. If the Software is pre-commercial release or beta software ("Pre-release Software"), then this section applies. The Pre-release Software is a pre-release version, does not represent a final product from vBulletin Solutions, and may contain bugs, errors, and other problems that could cause system or other failures and data loss and may only be used for testing purposes. vBulletin Solutions may never commercially release the Pre-release Software. vBulletin Solutions may alter features, licensing terms, or other characteristics of any version of the Pre-release Software that it releases. If you received the Pre-release Software pursuant to a separate written agreement, ("Test Agreement") for Pre-release Software, your use of the Software is also governed by the Test Agreement. If there is a conflict between this Agreement and the Test Agreement, the Test Agreement controls. You may not disclose, publish or disseminate any information regarding the Pre-release Software to anyone, including but not limited to any new features or faults to any Internet forums. YOUR USE OF PRE-RELEASE SOFTWARE IS AT YOUR OWN RISK. SEE SECTIONS 7 AND 8 FOR WARRANTY DISCLAIMERS AND LIABILITY LIMITATIONS THAT APPLY TO THE PRE-RELEASE SOFTWARE.
+</p><p>
+1.10 Updates. "Update(s)" will mean the release of a version of the Software containing improvements, corrections, modifications, alterations, revisions, extensions, language versions, and/or enhancements to the Software and/or Documentation made during the term of this Agreement. The change to an Update will be recognized by an increase in value of number to the right of a decimal point (e.g., version 5.0 to be replaced by version 5.1). In order to install an Update, you must possess a valid license to the previous version of the Software.  Once an Update is installed, this Agreement pertains to the Updated version of the Software. We recommend you install all Updates that specifically contain bug fixes. If you are domiciled in the E.U., and have not purchased the Software from vBulletin Solutions or its authorized resellers, an Update may be licensed to you with different or additional terms and an Upgrade fee subject to the vBulletin Solutions’ then-current fees.
+</p><p>
+1.11 Upgrade. "Upgrade" will mean the release of a version of the Software containing major changes to the structure of the Software where important new features may be added for an upgrade fee. The change to an Upgrade will be recognized by an increase in value of the number to the left of the decimal point (e.g., version 5.x to be replaced by version 6.x). Any Upgrade discounts offered to licensees by vBulletin Solutions are non-transferable. vBulletin Solutions may, at its sole discretion, cease providing support for any prior version of the Software after an Upgrade is made available. 
+</p>
+<h2>2.	Intellectual Property Ownership, Reservation of Rights.</h2>
+<p>
+The Software and any authorized copies that you make are the intellectual property of and are owned by vBulletin Solutions. The structure, organization, arrangement and source code of the Software are the valuable trade secrets and confidential information of vBulletin Solutions. The Software is protected by law, including but not limited to the copyright laws of the United States and other countries, and by international treaty provisions. Except as expressly stated herein, this Agreement does not grant you any intellectual property rights in the Software and all rights not expressly granted are reserved by vBulletin Solutions. vBulletin is a registered trademark of vBulletin Solutions in the U.S. and in the E.U. 
+</p>
+<h2>3.	Representations.</h2>
+<p>
+You represent and warrant that you have the legal capacity to enter into this Agreement, that you will use the Software only for lawful purposes and in accordance with this Agreement, and that you will not use the Software to violate any law, regulation or ordinance or any right of vBulletin Solutions or any third party, including without limitation, any right of privacy, publicity, copyright, trademark, or patent. 
+</p>
+<h2>4.	Termination.</h2>
+<p>
+Should you breach this Agreement, your right to use the Software will terminate immediately and without notice. The respective rights and obligations of vBulletin Solutions and you under the provisions of Sections 1.1 ("Limited Use"), 1.5 ("Need for Content Licenses"), 2 ("Intellectual Property Ownership, Reservation of Rights"), 4 ("Termination"), 7 ("Warranty"), 8 ("Limitation of Liability"), 9 ("Indemnification"), 12 ("Governing Law"), 13 ("General Provisions"), 16 ("Electronic Notice Delivery Policy"), and 18 ("Third Party Services") shall survive expiration or termination of this Agreement and you agree to continue to be bound by those terms. Upon termination of the License, you must destroy all copies of the Software, including any Updates. 
+</p>
+<h2>5.	Feedback.</h2>
+<p>
+We may provide you with a mechanism to give us feedback, including for example feedback on usability, bug reports, test results, documentation, suggestions and ideas about the Software (together, the "Feedback"). You agree that we may use the Feedback you provide in any way, including in future modifications of the Software. You grant us a perpetual, worldwide, fully transferable, non-revocable, royalty-free right and license to make, use, modify, sell, license, create derivative works from, distribute and display any information you provide to us in the Feedback. You acknowledge that you have all rights necessary to provide the Feedback under this Agreement and acknowledge that we are in no way obligated to incorporate, use or otherwise acknowledge any Feedback that you have provided or compensate you.
+</p>
+<h2>6.	No Refund.</h2>
+<p>
+No refunds will be offered for the Software once it has been downloaded, except as required by law or as otherwise stated herein. If you are domiciled in the E.U., please refer to Section 19.
+</p>
+<h2>7.	LIMITED WARRANTY.</h2>
+<p>
+THE SOFTWARE IS PROVIDED "AS-IS," AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VBULLETIN SOLUTIONS DISCLAIMS ALL OTHER WARRANTIES, CONDITIONS, REPRESENTATIONS OR TERMS, EXPRESS OR IMPLIED, BY STATUTE, COMMON LAW, CUSTOM, USAGE OR OTHERWISE, REGARDING THE SOFTWARE AND ANY RELATED MATERIALS, INCLUDING THEIR FITNESS FOR A PARTICULAR PURPOSE, THEIR QUALITY, THEIR MERCHANTABILITY, OR THEIR NONINFRINGEMENT. VBULLETIN SOLUTIONS DOES NOT WARRANT THAT THE SOFTWARE OR ANY RELATED SERVICES IS SECURE, OR IS FREE FROM BUGS, VIRUSES, ERRORS, OR OTHER PROGRAM LIMITATIONS NOR DOES IT WARRANT ACCESS TO THE INTERNET OR TO ANY OTHER SERVICE THROUGH THE SOFTWARE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS. YOU MAY HAVE OTHER RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION. SEE SECTION 19 FOR JURISDICTION-SPECIFIC STATEMENTS. VBULLETIN SOLUTIONS DOES NOT SEEK TO LIMIT YOUR WARRANTY RIGHTS TO ANY EXTENT NOT PERMITTED BY LAW. THE ENTIRE RISK AS TO THE RESULTS, QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU. THIS SECTION 7 WILL SURVIVE THE TERMINATION OF THIS AGREEMENT. 
+</p>
+<h2>8.	LIMITATION OF LIABILITY.</h2>
+<p>
+EXCEPT FOR THE EXCLUSIVE REMEDY OFFERED BY VBULLETIN SOLUTIONS IN SECTION 7 ABOVE AND ANY REMEDIES THAT CANNOT BE EXCLUDED OR LIMITED UNDER LAW, VBULLETIN SOLUTIONS, ITS AFFILIATES, RESELLERS, AND CERTIFICATE AUTHORITIES WILL NOT BE LIABLE TO YOU FOR ANY LOSS, DAMAGES, CLAIMS, OR COSTS WHATSOEVER INCLUDING ANY CONSEQUENTIAL, INDIRECT, OR INCIDENTAL DAMAGES, ANY LOST PROFITS OR LOST SAVINGS, ANY DAMAGES RESULTING FROM BUSINESS INTERRUPTION, PERSONAL INJURY OR FAILURE TO MEET ANY DUTY OF CARE, OR CLAIMS BY A THIRD PARTY, EVEN IF VBULLETIN SOLUTIONS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, DAMAGES, CLAIMS, OR COSTS. IN ANY EVENT, VBULLETIN SOLUTIONS’ AGGREGATE LIABILITY AND THAT OF ITS AFFILIATES, RESELLERS AND CERTIFICATE AUTHORITIES UNDER OR IN CONNECTIOIN WITH THIS AGREEMENT WILL BE LIMITED TO THE AMOUNT PAID FOR THE SOFTWARE. THIS LIMITATION WILL APPLY EVEN IN THE EVENT OF A FUNDAMENTAL OR MATERIAL BREACH BY VBULLETIN SOLUTIONS OF THIS AGREEMENT. vBulletin Solutions is acting on behalf of its affiliates, and resellers for the purpose of disclaiming, excluding and limiting obligations, warranties, and liability, but in no other respects and for no other purpose. 
+</p><p>
+THE FOREGOING LIMITATIONS AND EXCLUSIONS APPLY TO THE EXTENT PERMITTED BY APPLICABLE LAW IN YOUR JURISDICTION. THIS LIMITATION OF LIABILITY MAY NOT BE VALID IN SOME JURISDICTIONS. YOU MAY HAVE RIGHTS THAT CANNOT BE WAIVED UNDER CONSUMER PROTECTION AND OTHER LAWS. SEE SECTION 19 FOR E.U.-SPECIFIC STATEMENTS. VBULLETIN SOLUTIONS DOES NOT SEEK TO LIMIT YOUR WARRANTY OR REMEDIES TO ANY EXTENT NOT PERMITTED BY LAW. THIS SECTION 8 WILL SURVIVE THE TERMINATION OF THIS AGREEMENT. 
+</p>
+<h2>9.	Indemnification.</h2>
+<p>
+You agree to defend, indemnify and hold vBulletin Solutions, Internet Brands, and our parents, officers, directors, employees, agents or affiliates, harmless from and against any and all claims, losses, liability, costs and expenses (including but not limited to reasonable attorneys' fees) arising from your use of the Software or your vBulletin forum users' use of the Software, laws or regulations, or any third party's rights, including but not limited to infringement of any copyright, violation of any proprietary right or invasion of any privacy rights. This obligation will survive the termination of this Agreement.
+</p>
+<h2>10.	U.S. Government End Users.</h2>
+<p>
+The Software and any related documentation are "Commercial Items", as that term is defined at 48 C.F.R. §2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation", as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users (a) only as Commercial Items, and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions herein. Unpublished-rights are reserved under the copyright laws of the United States.
+</p>
+<h2>11.	Export Rules.</h2>
+<p>
+You acknowledge that the Software is subject to the U.S. Export Administration Regulations and other export laws, restrictions, and regulations (collectively, the "Export Laws") and that you will comply with the Export Laws. You will not ship, transfer, export, or re-export the Software, directly or indirectly, to: (a) any countries that are subject to U.S. export restriction or the United Nations Security Council arms embargoes (currently including, but not necessarily limited to, Cuba, Iran, Iraq, North Korea, Sudan, Rwanda, Cote d'Ivoire (Ivory Coast), Democratic Republic of the Congo, Eritrea, Lebanon, Liberia, Libya,  Somalia, and Syria) (each, an "Embargoed Country"), (b) any end user who you know or have reason to know will utilize them in the design, development or production or nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, and sounding rockets, or unmanned air vehicle systems (each, a "Prohibited Use"), or (c) any end user who has been prohibited from participating in the U.S. export transactions by any federal agency of the U.S. government (each, a "Sanctioned Party"). In addition, you are responsible for complying with any local laws in your jurisdiction which may impact your right to import, export or use the Software. You represent and warrant that (i) you are not a citizen or, or located within, and Embargoed Country, (ii) will not use the Software for a Prohibited Use, and (iii) are not a Sanctioned Party. All rights to use the Software are granted on condition that such rights are forfeited if you fail to comply with the terms of this Agreement.
+</p>
+<h2>12.	Governing Law.</h2>
+<p>
+The License and this Agreement are governed by and construed in accordance with the laws of the State of California, United States of America. You hereby consent to the exclusive jurisdiction and venue in the state and federal courts of the County of Los Angeles, California and the Central District of California, respectively. The License will not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. Unless otherwise required by law, an action or proceeding by you to enforce an obligation, duty, or right arising under the License or this Agreement or by law with respect to the Software or Services must be commenced within one (1) year after the cause of action or lawsuit arises or accrues. Notwithstanding any provision in this Agreement, either vBulletin Solutions or you may request any judicial, administrative, or other authority to order any provisional or conservatory measure, including injunctive relief, specific performance, or other equitable relief, prior to the institution of legal proceedings, or during the proceedings, for the preservation of its rights and interests or to enforce specific terms that are suitable for provisional remedies. By agreeing to the terms of this Agreement, you are waiving claims that you might otherwise have against vBulletin Solutions based on the laws of other jurisdictions. 
+</p>
+<h2>13.	General Provisions.</h2>
+<p>
+If for any reason a court of competent jurisdiction finds any provision, or portion of the License or this Agreement, to be unenforceable, the remainder of the License or this Agreement will continue in full force and effect.  This Agreement may only be modified in writing, signed by an authorized officer of vBulletin Solutions and you. This is the entire agreement between vBulletin Solutions and you relating to the Software and the License and it supersedes any prior representations, discussions, undertakings, communications, or advertising relating to the Software. You may not assign or otherwise transfer by operation of law or otherwise this Agreement or any rights or obligations without the prior written consent of vBulletin Solutions. vBulletin Solutions may assign this Agreement to any entity at its sole discretion. The English version of this Agreement will be the version used when interpreting or construing this Agreement.
+</p>
+<h2>14.	Compliance with Licenses.</h2>
+<p>
+vBulletin Solutions periodically analyzes vBulletin software usage for possible piracy, and as such, you agree that, no more than once every twelve (12) months, vBulletin Solutions or its authorized representative will, upon ten (10) days’ prior notice to you, verify that your use of the Software is in conformity with the License. You will provide such records and information to vBulletin Solutions within thirty (30) days of vBulletin Solutions’ request.  If verification discloses that your use is not in conformity with the License, you will immediately obtain a License to bring your use into conformity.
+</p>
+<h2>15.	Privacy.</h2>
+<p>
+Our Privacy Policy (http://www.internetbrands.com/privacy/privacy-highlights.html?site=www.vbulletin.com) and Terms of Use (www.vbulletin.com/terms/) are incorporated by reference and made a part of this Agreement and may change from time to time at vBulletin Solutions sole discretion.  If you do not agree to the Terms of Use do not purchase or use the Software.
+</p>
+<h2>16. Electronic Notice Delivery Policy.</h2>
+<p>
+vBulletin Solution, when possible, transacts with users of its products electronically. When you provide vBulletin Solutions with your email address, you consent to receive electronically from vBulletin Solutions any privacy or other notices, agreements, disclosures, reports, documents, communications, or other records (together, "Notices"). You agree that vBulletin Solutions can send you electronic Notices to the email address that you provide. The delivery of any Notice from vBulletin Solutions is effective when sent, regardless of whether you read the Notice when received or whether you actually receive the delivery. 
+</p>
+<h2>17. Electronic Contracting.</h2>
+<p>
+Your use of the Software includes the ability to enter into agreements and/or to make transactions electronically. YOU ACKNOWLEDGE THAT YOUR ELECTRONIC SUBMISSIONS CONSTITUTE YOUR AGREEMENT AND INTENT TO BE BOUND BY AND TO PAY FOR SUCH AGREEMENTS AND TRANSACTIONS. YOUR AGREEMENT AND INTENT TO BE BOUND BY ELECTRONIC SUBMISSIONS APPLIES TO ALL RECORDS RELATING TO ALL TRANSACTIONS YOU ENTER INTO WITH VBULLETIN SOLUTIONS, INCLUDING NOTICES OF CANCELLATION, POLICIES, CONTRACTS, AND APPLICATIONS. In order to access and retain your electronic records, you may be required to have certain hardware and software, which are your sole responsibility. 
+</p>
+<h2>18. Third Party Services.</h2>
+<p>
+The Software may facilitate your access to websites maintained by third parties offering goods, information, software, and services ("Third Party Online Service(s)"). Your access to and use of any Third Party Online Services is governed by the terms, conditions, disclaimers, and notices found on each site or otherwise associated with such Third Party Online Services. vBulletin Solutions does not control, endorse, or accept responsibility for Third Party Online Services. Any dealings between you and any third party in connection with a Third Party Online Service, including such party’s privacy policies and use of your personal information, delivery of and payment for goods and services, and any other terms, conditions, warranties, or representations associated with such dealings, are solely between you and such third party. 
+</p>
+<h2>19. Specific Provisions and Exceptions.</h2>
+<p>
+This Section 19 sets forth specific provisions related to the Software and the License as well as limited exceptions to the above terms and conditions. This Section 19 only applies if you are domiciled in the E.U. To the extent that any provision in this Section 19 is in conflict with any other term or condition in this Agreement, this Section will supersede such other terms or conditions.
+</p><p>
+19.1 No Prejudice, E.U. Provisions.
+</p><p>
+19.1.1 No Transfer. YOU WILL NOT RENT, LEASE, SELL, SUBLICENSE, ASSIGN, OR TRANSFER YOUR RIGHTS IN THE SOFTWARE, OR AUTHORIZE ANY PORTION OF THE SOFTWARE TO BE COPIED ONTO ANOTHER INDIVIDUAL OR LEGAL ENTITY’S COMPUTER EXCEPT AS MAY BE EXPRESSLY PERMITTED HEREIN. You may, however, permanently transfer all your rights to use the Software (excluding Services, access to product Updates, discounts, and the use of customer support and forums) to another individual or legal entity provided that: (a) you also transfer (i) this Agreement; (ii) the license number(s), the Software affixed to media provided by vBulletin Solutions or its authorized reseller, and all other software or hardware bundled, packaged, or pre-installed with the Software, including all copies, Updates, and prior versions; (b) you retain no Updates or copies, including backups and copies stored on a Computer or in the cloud; and (c) the receiving party accepts the terms and conditions of this Agreement and any other terms and conditions under which you purchased the License to the Software. For the purpose of clarity, other vBulletin products and services, including support contracts, access to product updates, discounts, and the use of support forums are non-transferable. Prior to a transfer, vBulletin Solutions might require that you and the receiving party confirm in writing your compliance with this Agreement, provide vBulletin Solutions with information about yourselves, and register as end-users of the Software. Allow 4-6 weeks to effect the transfer. Prior to any transfer, you must contact vBulletin Solutions Customer Support Department at sales@vbulletin.com. Upon transfer of the Software, your License is automatically terminated. 
+</p><p>
+19.1.2 This Agreement will not prejudice the statutory rights of any party, including those dealing as consumers. 
+</p><p>
+19.1.3 This Agreement, and in particular, this Section 19.1.3, is intended to describe your rights (including your statutory rights) in the event there should be problems with your use of the Software. If your statutory rights are greater than this description, your statutory rights will apply. If you obtained the Software in the E.U., you usually reside in the E.U., and you are a consumer (that is you use the Software for personal, non-business related purposes), then Section 7 does not apply to your purchase and use of the Software. Instead, vBulletin Solutions warrants for a period of two (2) years from purchase that the Software provides the functionalities when used on the recommended hardware configuration. Non-substantial variation from the agreed upon functionalities will not establish any warranty rights. THIS WARRANTY DOES NOT APPLY IF THE SOFTWARE FAILS TO PERFORM BECAUSE IT HAS BEEN ALTERED BY YOU. To make a warranty claim, you must notify the vBulletin Solutions Customer Support Department at sales@vbulletin.com during this two (2) year period, providing details or proof of purchase of the Software. vBulletin Solutions will verify with you whether there is a defect in the Software or advise you that the error arises because you have not installed the Software correctly (in which case, vBulletin Solutions will assist you). If there is a defect in the Software, you may request from vBulletin Solutions either a refund or replacement copy of the Software. Requests must be accompanied by proof of purchase. In the event your warranty details are not substantiated, vBulletin Solutions will meet your request for replacement Software, unless it is not reasonable for vBulletin Solutions to do so, in which case vBulletin Solutions will provide you with a refund. For warranty assistance, please contact the vBulletin Solutions Customer Support Department.
+</p><p>
+The provisions of Section 8 (Limitation of Liability) will continue to apply to any damages claims you make in respect of your use of the Software. vBulletin Solutions may be liable if so determined by a court of competent jurisdiction for direct losses that are reasonably foreseeable in the event of a material breach by vBulletin Solutions of this Agreement. You are advised to take all reasonable measures to avoid, reduce or otherwise mitigate damages, in particular by making one (1) back-up copy of the Software and your computer data, and we strongly recommend purchasing Updates, as they often include important security patches.  
+</p>
+<p>Effective 9/1/2012</p>
+</div>
+
+</body>
+</html>

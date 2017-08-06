@@ -1,0 +1,13 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+	<appender name="filelog" class="LoggerAppenderFile">
+		<param name="file" value="vbdebuglog.log" />
+ 	</appender>
+	<!-- <logger name='api'>
+    <level value="trace" />
+    <appender_ref ref="filelog" />
+	 </logger> -->
+	<!-- <logger name='dbAssertor'>
+    <level value="info" />
+    <appender_ref ref="filelog" />
+	 </logger> -->
+</configuration>

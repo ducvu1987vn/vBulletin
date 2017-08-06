@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pages>
+	<page guid="vbulletin-4ecbdac82ef5d4.12817784">
+		<title>Forums</title>
+		<metakeywords>forum, discussion board, discussion forum</metakeywords>
+		<metadescription>vBulletin Forums</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>1</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9370e30.09770013</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a4ad0.58738735</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82efb61.17736147">
+		<title>Advanced Search</title>
+		<metakeywords>search, advanced_search</metakeywords>
+		<metadescription>vBulletin Search</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>1</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9371ab0.18191024</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a8335.81846640</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f0396.95291105">
+		<title>Register</title>
+		<metakeywords>register, signup, sign up</metakeywords>
+		<metadescription>Forgot and Retrieve Password</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9371e58.50519390</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a6f13.66635711</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f0396.95291106">
+		<title>Forgot Password</title>
+		<metakeywords>login, forgot password</metakeywords>
+		<metadescription>Forum Registration</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9371e58.50519391</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a6f13.66635712</routeGuid>
+	</page>
+    <page guid="vbulletin-4ecbdac82f0396.95291107">
+		<title>Contact Us</title>
+		<metakeywords>contact us</metakeywords>
+		<metadescription>Contact Us</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9371e58.50519392</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a6f13.66635713</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f07a5.18983925">
+		<title>Online</title>
+		<metakeywords>online users, active users</metakeywords>
+		<metadescription>Online Users</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93721f3.19350821</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a8725.49820977</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f0bb4.37025811">
+		<title>User Profile</title>
+		<metakeywords>user profile</metakeywords>
+		<metadescription>User Profile</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9372590.52063766</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a7315.96817600</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f0fd1.78471901">
+		<title>Media</title>
+		<metakeywords>upload media images video</metakeywords>
+		<metadescription>Upload Media</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9372934.46376011</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a9ee3.66723601</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f13d1.77590572">
+		<title>Edit Photos</title>
+		<metakeywords>edit photos gallery album</metakeywords>
+		<metadescription>Edit Photos</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9372cd6.23258244</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a7b06.81753708</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2408.19539885">
+		<title>User Settings</title>
+		<metakeywords>edit profile settings</metakeywords>
+		<metadescription>User Profile Settings</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9373b62.95194677</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6a9307.24480802</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2815.04471586">
+		<title>Search Result</title>
+		<metakeywords>search, search results</metakeywords>
+		<metadescription>vBulletin Search</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>1</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac9373f09.61139031</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aa3b7.75359902</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323361">
+		<title>Private Messages</title>
+		<metakeywords>private messages</metakeywords>
+		<metadescription>vBulletin Private Messages</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>1</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676026</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909921</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323362">
+		<title>Subscription</title>
+		<metakeywords>subscription friends interest connected</metakeywords>
+		<metadescription>Subscriptions</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676027</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909922</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323364">
+		<title>Album</title>
+		<metakeywords>album photos videos pictures images slideshow</metakeywords>
+		<metadescription>vBulletin Photo Album</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676028</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909923</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323365">
+		<title>Visitor Message Display</title>
+		<metakeywords>visitor message</metakeywords>
+		<metadescription>Visitor Message</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676029</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909924</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323366">
+		<title>Blogs</title>
+		<metakeywords>blogs</metakeywords>
+		<metadescription>Blogs</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676031</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909926</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323367">
+		<title>Blog Admin</title>
+		<metakeywords>blogs admin edit publish</metakeywords>
+		<metadescription>Blog Administration</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676032</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909925</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323369">
+		<title>Create New Content</title>
+		<metakeywords>create new content</metakeywords>
+		<metadescription>create new content</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676034</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdaad6aac05.50902379</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323370">
+		<title>Group Admin</title>
+		<metakeywords>groups admin edit publish</metakeywords>
+		<metadescription>Group Administration</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676035</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909980</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323371">
+		<title>New Group</title>
+		<metakeywords>group</metakeywords>
+		<metadescription>New Group</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676036</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909981</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323372">
+		<title>Group Home</title>
+		<metakeywords>group home start</metakeywords>
+		<metadescription>Groups</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid></parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676037</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdac93742a5.43676037</routeGuid>
+	</page>
+    <page guid="vbulletin-vbsgcatlistf2c27.60323373">
+        <title>Group Category</title>
+        <metakeywords>group category</metakeywords>
+        <metadescription>Group Category</metadescription>
+        <moderatorid>0</moderatorid>
+        <displayorder>0</displayorder>
+        <pagetype>custom</pagetype>
+        <parentGuid>vbulletin-4ecbdac82f2c27.60323372</parentGuid>
+        <pageTemplateGuid>vbulletin-sgcatlist93742a5.43676040</pageTemplateGuid>
+        <routeGuid>vbulletin-sgcatlistaac05.50909983</routeGuid>
+    </page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323374">
+		<title>Activate Your Account</title>
+		<metakeywords>registration, activate user</metakeywords>
+		<metadescription>Forum User Activation</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676041</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909984</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323375">
+		<title>Email Activation Codes</title>
+		<metakeywords>registration, activate email</metakeywords>
+		<metadescription>Forum User Activation</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676042</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909985</routeGuid>
+	</page>
+	<page guid="vbulletin-4ecbdac82f2c27.60323376">
+		<title>Coppa Permission Form</title>
+		<metakeywords>coppa, permission form</metakeywords>
+		<metadescription>Coppa Permission Form</metadescription>
+		<moderatorid>0</moderatorid>
+		<displayorder>0</displayorder>
+		<pagetype>custom</pagetype>
+		<parentGuid>vbulletin-4ecbdac82ef5d4.12817784</parentGuid>
+		<pageTemplateGuid>vbulletin-4ecbdac93742a5.43676043</pageTemplateGuid>
+		<routeGuid>vbulletin-4ecbdacd6aac05.50909986</routeGuid>
+	</page>
+</pages>

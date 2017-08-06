@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<style name="Base Generator Light" vbversion="4.0.5" product="vbulletin" type="custom">
+	<stylevardfns>
+	</stylevardfns>
+	<stylevars>
+		<stylevar name="body_background" ><![CDATA[{"color":"#A6A6A6"}]]></stylevar>
+		<stylevar name="wrapper_background"><![CDATA[{"color":"#BBBBBB"}]]></stylevar>
+		<stylevar name="header_background"><![CDATA[{"color":"#A6A6A6"}]]></stylevar>
+		<stylevar name="header_tabbar_background"><![CDATA[{"color":"#A6A6A6"}]]></stylevar>
+		<stylevar name="header_tab_background" colCat="pri-0"><![CDATA[{"color":"transparent"}]]></stylevar>
+		<stylevar name="topic_title_color" colCat="pri-3"><![CDATA[{"color":"#2379B5"}]]></stylevar>
+		<stylevar name="list_item_background"><![CDATA[{"color":"transparent"}]]></stylevar>
+		<stylevar name="body_text_color" colCat="pri-0"><![CDATA[{"color":"#2379B5"}]]></stylevar>
+		<stylevar name="ui_widget_content_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="additional_module_header_text_color" colCat="pri-0"><![CDATA[{"color":"#012331"}]]></stylevar>
+		<stylevar name="announcement_background" colCat="pri-0"><![CDATA[{"color":"#F7F9EB"}]]></stylevar>
+		<stylevar name="autosuggest_background" colCat="pri-0"><![CDATA[{"color":"#EEEEEE"}]]></stylevar>
+		<stylevar name="button_primary_text_color" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="button_secondary_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="button_special_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="toolbar_form_field_background" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="toolbar_form_field_placeholder_text_color" colCat="pri-0"><![CDATA[{"color":"#656A6D"}]]></stylevar>
+		<stylevar name="toolbar_text_color"><![CDATA[{"color":"#FFF"}]]></stylevar>
+		<stylevar name="toolbar_dropdown_background_gradient_end" colCat="pri-0"><![CDATA[{"color":"#EFF3F4"}]]></stylevar>
+		<stylevar name="toolbar_dropdown_background_gradient_start" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="toolbar_dropdown_text_color" colCat="pri-0"><![CDATA[{"color":"#09161B"}]]></stylevar>
+		<stylevar name="toolbar_dropdown_text_color_active" colCat="pri-0"><![CDATA[{"color":"#0091C1"}]]></stylevar>
+		<stylevar name="form_dropdown_background" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="form_dropdown_background_hover" colCat="pri-0"><![CDATA[{"color":"#EBEBEB"}]]></stylevar>
+		<stylevar name="form_dropdown_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="form_field_background" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="toolbar_background" colCat="pri-0"><![CDATA[{"color":"#F0F0F0"}]]></stylevar>
+		<stylevar name="toolbar_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="inline_edit_background" colCat="pri-0"><![CDATA[{"color":"#2F3842"}]]></stylevar>
+		<stylevar name="inline_edit_button_disabled_text_color" colCat="pri-0"><![CDATA[{"color":"#717B82"}]]></stylevar>
+		<stylevar name="inline_edit_button_flat_text_color" colCat="pri-0"><![CDATA[{"color":"#F4F6F8"}]]></stylevar>
+		<stylevar name="inline_edit_button_primary_text_color" colCat="pri-0"><![CDATA[{"color":"#2C3C12"}]]></stylevar>
+		<stylevar name="inline_edit_button_secondary_text_color" colCat="pri-0"><![CDATA[{"color":"#323B44"}]]></stylevar>
+		<stylevar name="inline_edit_folder_text_color_active_hover" colCat="pri-0"><![CDATA[{"color":"#7A828B"}]]></stylevar>
+		<stylevar name="inline_edit_form_text_color" colCat="pri-0"><![CDATA[{"color":"#000000"}]]></stylevar>
+		<stylevar name="inline_edit_header_body_text_color" colCat="pri-0"><![CDATA[{"color":"#D3D8E2"}]]></stylevar>
+		<stylevar name="inline_edit_search_bar_background" colCat="pri-0"><![CDATA[{"color":"#5C636B"}]]></stylevar>
+		<stylevar name="inline_edit_search_bar_background_active" colCat="pri-0"><![CDATA[{"color":"#ECECEC"}]]></stylevar>
+		<stylevar name="inline_edit_search_bar_background_hover" colCat="pri-0"><![CDATA[{"color":"#979B9F"}]]></stylevar>
+		<stylevar name="inline_edit_search_bar_text_color" colCat="pri-0"><![CDATA[{"color":"#AAAEB2"}]]></stylevar>
+		<stylevar name="inline_edit_subheader_text_color" colCat="pri-0"><![CDATA[{"color":"#F0FDCF"}]]></stylevar>
+		<stylevar name="side_nav_background" colCat="pri-0"><![CDATA[{"color":"#F4F4F4"}]]></stylevar>
+		<stylevar name="side_nav_background_active" colCat="pri-0"><![CDATA[{"color":"#D3D7DA"}]]></stylevar>
+		<stylevar name="main_nav_admin_bar_text_color" colCat="pri-0"><![CDATA[{"color":"#4D5355"}]]></stylevar>
+		<stylevar name="main_nav_login_error_field_background" colCat="pri-0"><![CDATA[{"color":"#FFE0E0"}]]></stylevar>
+		<stylevar name="main_nav_login_error_text_color" colCat="pri-0"><![CDATA[{"color":"#D30000"}]]></stylevar>
+		<stylevar name="module_content_background" colCat="pri-0"><![CDATA[{"color":"#F8F8F8"}]]></stylevar>
+		<stylevar name="module_header_background" colCat="pri-0"><![CDATA[{"color":"#F8F8F8"}]]></stylevar>
+		<stylevar name="module_tab_background" colCat="pri-0"><![CDATA[{"color":"#F9F9F9"}]]></stylevar>
+		<stylevar name="module_tab_background_active" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="module_tab_text_color"><![CDATA[{"color":"#838789"}]]></stylevar>
+		<stylevar name="module_tab_text_color_active"><![CDATA[{"color":"#343A3D"}]]></stylevar>
+		<stylevar name="notice_background" colCat="pri-0"><![CDATA[{"color":"#FCF7D7"}]]></stylevar>
+		<stylevar name="header_text_color" colCat="pri-0"><![CDATA[{"color":"#012331"}]]></stylevar>
+		<stylevar name="photo_background" colCat="pri-0"><![CDATA[{"color":"#1D2428"}]]></stylevar>
+		<stylevar name="popup_background" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="post_controls_quote_active_text_color" colCat="pri-0"><![CDATA[{"color":"#FF7800"}]]></stylevar>
+		<stylevar name="post_controls_text_color" colCat="pri-3"><![CDATA[{"color":"#696969"}]]></stylevar>
+		<stylevar name="postbit_background" colCat="pri-0"><![CDATA[{"color":"#C8CCCE"}]]></stylevar>
+		<stylevar name="postbit_deleted_background" colCat="pri-0"><![CDATA[{"color":"#E9D1D0"}]]></stylevar>
+		<stylevar name="private_messages_mark_as_unread_background" colCat="pri-0"><![CDATA[{"color":"#ECF7FA"}]]></stylevar>
+		<stylevar name="slideshow_image_background" colCat="pri-0"><![CDATA[{"color":"#000000"}]]></stylevar>
+		<stylevar name="comment_background" colCat="pri-0"><![CDATA[{"color":"#F0F0F0"}]]></stylevar>
+		<stylevar name="thread_reply_background" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="thread_starter_background" colCat="pri-0"><![CDATA[{"color":"#EBF4F9"}]]></stylevar>
+	</stylevars>
+</style>

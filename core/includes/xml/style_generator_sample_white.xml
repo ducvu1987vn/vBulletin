@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<style name="Base Generator Light" vbversion="4.0.5" product="vbulletin" type="custom">
+	<stylevardfns>
+	</stylevardfns>
+	<stylevars>
+		<stylevar name="wrapper_background"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="header_background" colCat="pri-2"><![CDATA[{"color":"#2F333C"}]]></stylevar>
+		<stylevar name="header_tabbar_background" colCat="pri-1"><![CDATA[{"color":"#2E3037"}]]></stylevar>
+		<stylevar name="tabbar_list_item_color"><![CDATA[{"color":"#DDDBDC"}]]></stylevar>
+		<stylevar name="module_content_background"><![CDATA[{"color":"#FFF"}]]></stylevar>
+		<stylevar name="header_tab_background" colCat="pri-0"><![CDATA[{"color":"transparent"}]]></stylevar>
+		<stylevar name="ui_widget_content_text_color" colCat="pri-1"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="additional_module_header_text_color" colCat="pri-1"><![CDATA[{"color":"#012331"}]]></stylevar>
+		<stylevar name="announcement_background" colCat="pri-0"><![CDATA[{"color":"#F7F9EB"}]]></stylevar>
+		<stylevar name="autosuggest_background" colCat="pri-0"><![CDATA[{"color":"#EEEEEE"}]]></stylevar>
+		<stylevar name="body_link_color"><![CDATA[{"color":"#2379B5"}]]></stylevar>
+		<stylevar name="body_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="button_primary_text_color" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="button_secondary_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="button_special_text_color" colCat="pri-0"><![CDATA[{"color":"#252C2F"}]]></stylevar>
+		<stylevar name="module_tab_background" colCat="pri-0"><![CDATA[{"color":"#F9F9F9"}]]></stylevar>
+		<stylevar name="module_tab_background_active" colCat="pri-0"><![CDATA[{"color":"#FFFFFF"}]]></stylevar>
+		<stylevar name="module_tab_text_color"><![CDATA[{"color":"#838789"}]]></stylevar>
+		<stylevar name="module_tab_text_color_active"><![CDATA[{"color":"#343A3D"}]]></stylevar>
+	</stylevars>
+</style>

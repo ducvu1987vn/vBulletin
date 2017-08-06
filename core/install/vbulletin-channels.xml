@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<channels>
+	<channel guid="vbulletin-4ecbdf567f2773.55528984">
+		<daysprune>0</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>1</category>
+		<node>
+			<displayorder>1</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Home Description</description>
+			<title>Home</title>
+			<htmltitle>Home Page</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-4ecbdacd6a4ad0.58738735</routeguid>
+			<parentguid></parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f2c35.70389590">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>1</category>
+		<node>
+			<displayorder>1</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Forum Description</description>
+			<title>Forum</title>
+			<htmltitle>Forum</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-4ecbdacd6ab010.83796048</routeguid>
+			<parentguid>vbulletin-4ecbdf567f2773.55528984</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3341.44450666">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>1</category>
+		<node>
+			<displayorder>1</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Main Category Description</description>
+			<title>Main Category</title>
+			<htmltitle>Main Category</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<parentguid>vbulletin-4ecbdf567f2c35.70389590</parentguid>
+		</node>
+		<installonly>1</installonly>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3341.44450667">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>0</category>
+		<node>
+			<displayorder>1</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Main Forum Description</description>
+			<title>Main Forum</title>
+			<htmltitle>Main Forum</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<parentguid>vbulletin-4ecbdf567f3341.44450666</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3a38.99555305">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>1</category>
+		<node>
+			<displayorder>2</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Blogs</description>
+			<title>Blogs</title>
+			<htmltitle>Blogs</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-4ecbdacd6aac05.50909926</routeguid>
+			<parentguid>vbulletin-4ecbdf567f2773.55528984</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3a38.99555306">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>1</category>
+		<node>
+			<displayorder>3</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Groups</description>
+			<title>Groups</title>
+			<htmltitle>Groups</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-4ecbdac93742a5.43676037</routeguid>
+			<parentguid>vbulletin-4ecbdf567f2773.55528984</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3a38.99555307">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>1</category>
+		<node>
+			<displayorder>1</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Group Uncategorized Category</description>
+			<title>Uncategorized Groups</title>
+			<htmltitle>Uncategorized Groups</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-sgcatlistaac05.50909983</routeguid>
+			<parentguid>vbulletin-4ecbdf567f3a38.99555306</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3341.44451100">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>1</category>
+		<node>
+			<displayorder>4</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Special</description>
+			<title>Special</title>
+			<htmltitle>Special</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>0</protected>
+			<setfor>0</setfor>
+			<routeguid></routeguid>
+			<parentguid>vbulletin-4ecbdf567f2773.55528984</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f36c3.90966558">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>0</category>
+		<node>
+			<displayorder>1</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Visitor Messages</description>
+			<title>Visitor Messages</title>
+			<htmltitle>Visitor Messages</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>0</inlist>
+			<protected>1</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-4ecbdacd6ac092.40888707</routeguid>
+			<parentguid>vbulletin-4ecbdf567f3341.44451100</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3da8.31769341">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>0</category>
+		<node>
+			<displayorder>2</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Private Messages</description>
+			<title>Private Messages</title>
+			<htmltitle>Private Messages</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>0</inlist>
+			<protected>1</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-4ecbdacd6ac8e1.20632687</routeguid>
+			<parentguid>vbulletin-4ecbdf567f3341.44451100</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3a38.99555303">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>0</category>
+		<node>
+			<displayorder>3</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>User Albums</description>
+			<title>Albums</title>
+			<htmltitle>Albums</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>0</inlist>
+			<protected>1</protected>
+			<setfor>0</setfor>
+			<routeguid>vbulletin-4ecbdacd6adac8.24278942</routeguid>
+			<parentguid>vbulletin-4ecbdf567f3341.44451100</parentguid>
+		</node>
+	</channel>
+	<channel guid="vbulletin-4ecbdf567f3a38.99555304">
+		<daysprune>-1</daysprune>
+		<defaultsortfield>lastcontent</defaultsortfield>
+		<defaultsortorder>desc</defaultsortorder>
+		<category>0</category>
+		<node>
+			<displayorder>4</displayorder>
+			<publishdate>1321982542</publishdate>
+			<description>Reports / Flags</description>
+			<title>Reports</title>
+			<htmltitle>Reports</htmltitle>
+			<textcount>0</textcount>
+			<textunpubcount>0</textunpubcount>
+			<totalcount>0</totalcount>
+			<totalunpubcount>0</totalunpubcount>
+			<showpublished>1</showpublished>
+			<featured>0</featured>
+			<starter>0</starter>
+			<inlist>1</inlist>
+			<protected>1</protected>
+			<setfor>0</setfor>
+			<routeguid></routeguid>
+			<parentguid>vbulletin-4ecbdf567f3341.44451100</parentguid>
+		</node>
+	</channel>
+</channels>

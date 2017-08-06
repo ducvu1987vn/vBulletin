@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<navgroups product="viglink">
+  <navgroup phrase="viglink_gcphome" permissions="canadminsettings" displayorder="19">
+    <navoption displayorder="50">
+      <phrase>viglink_settings_menu_label</phrase>
+      <link>../core/packages/viglink/admincp.php</link>
+    </navoption>
+  </navgroup>
+</navgroups>
+

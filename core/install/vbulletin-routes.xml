@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<routes>
+	<route guid="vbulletin-4ecbdacd6a3d43.49233131">
+		<prefix>ajax</prefix>
+		<regex><![CDATA[ajax(?P<route>(?:/[a-zA-Z0-9_.-]+)+)]]></regex>
+		<controller>ajax</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:5:"route";s:6:"$route";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a4277.53325739">
+		<prefix>page</prefix>
+		<regex><![CDATA[page/(?P<contentid>.*)]]></regex>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:9:"contentid";s:10:"$contentid";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a4687.72226697">
+		<prefix>pages</prefix>
+		<regex>pages</regex>
+		<template>page_list</template>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a4ad0.58738735">
+		<class>vB5_Route_Channel</class>
+		<controller>page</controller>
+		<action>index</action>
+		<name>home</name>
+		<arguments><![CDATA[a:2:{s:11:"channelGuid";s:33:"vbulletin-4ecbdf567f2773.55528984";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82ef5d4.12817784";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a4ec4.04956185">
+		<prefix>page-edit</prefix>
+		<regex><![CDATA[page-edit(?:/(?P<contentid>[0-9]+))?]]></regex>
+		<template>page_edit</template>
+		<arguments><![CDATA[a:1:{s:9:"contentid";s:10:"$contentid";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a5335.81970166">
+		<prefix>pagetemplate-edit</prefix>
+		<regex><![CDATA[pagetemplate-edit(?:/(?P<contentid>[0-9]+))?]]></regex>
+		<template>pagetemplate_edit</template>
+		<arguments><![CDATA[a:1:{s:9:"contentid";s:10:"$contentid";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a5733.19365762">
+		<prefix>site-new</prefix>
+		<regex>site-new</regex>
+		<template>site_new</template>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a5b34.78659015">
+		<prefix>site-save</prefix>
+		<regex>site-save</regex>
+		<template>site_save</template>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a5f24.20442364">
+		<prefix>page-save</prefix>
+		<regex>page-save</regex>
+		<controller>admin</controller>
+		<action>pageSave</action>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a6335.32656589">
+		<prefix>pagetemplate-save</prefix>
+		<regex>pagetemplate-save</regex>
+		<controller>admin</controller>
+		<action>pagetemplateSave</action>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a6728.48186180">
+		<prefix>site-manager</prefix>
+		<regex>site-manager</regex>
+		<template>site_manager</template>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a6b27.74517966">
+		<prefix>site-install</prefix>
+		<regex>site-install</regex>
+		<template>site_install</template>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a6f13.66635711">
+		<name>register</name>
+		<prefix>register</prefix>
+		<regex>register</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f0396.95291105";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a6f13.66635712">
+		<name>lostpw</name>
+		<prefix>lostpw</prefix>
+		<regex>lostpw</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f0396.95291106";}]]></arguments>
+	</route>
+    <route guid="vbulletin-4ecbdacd6a6f13.66635713">
+		<name>contact-us</name>
+		<prefix>contact-us</prefix>
+		<regex>contact-us</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f0396.95291107";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a7315.96817600">
+		<name>profile</name>
+		<prefix>member</prefix>
+		<regex><![CDATA[member/(?P<userid>[0-9]+)(?P<username>(-[^?]*)*)]]></regex>
+		<class>vB5_Route_Profile</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:2:{s:6:"userid";s:7:"$userid";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f0bb4.37025811";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a7709.25161691">
+		<prefix>create-content</prefix>
+		<regex>create-content/text(?:/)?</regex>
+		<controller>createcontent</controller>
+		<action>index</action>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a7b06.81753708">
+		<name>editphoto</name>
+		<prefix>editphoto</prefix>
+		<regex>editphoto</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f13d1.77590572";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a8335.81846640">
+		<name>advanced_search</name>
+		<prefix>advanced_search</prefix>
+		<regex>advanced_search</regex>
+		<class>vB5_Route_Page</class>
+		<controller>search</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82efb61.17736147";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a8725.49820977">
+		<name>online_details</name>
+		<prefix>online</prefix>
+		<regex>online</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f07a5.18983925";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a9307.24480802">
+		<name>settings</name>
+		<prefix>settings</prefix>
+		<regex><![CDATA[settings/(?P<tab>profile|account|privacy|notifications)]]></regex>
+		<class>vB5_Route_Settings</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:2:{s:3:"tab";s:4:"$tab";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2408.19539885";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6a9ee3.66723601">
+		<name>media</name>
+		<prefix>uploadmedia</prefix>
+		<regex>uploadmedia</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f0fd1.78471901";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aa3b7.75359902">
+		<name>search</name>
+		<prefix>search</prefix>
+		<regex>search</regex>
+		<class>vB5_Route_Page</class>
+		<controller>search</controller>
+		<action>results</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2815.04471586";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aa7c8.79724467">
+		<name>admincp</name>
+		<prefix>admincp</prefix>
+		<regex><![CDATA[admincp/(?P<file>[a-zA-Z0-9_.-]*)]]></regex>
+		<class>vB5_Route_Admincp</class>
+		<controller>relay</controller>
+		<action>admincp</action>
+		<arguments><![CDATA[a:1:{s:4:"file";s:5:"$file";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aa7c8.79724488">
+		<name>modcp</name>
+		<prefix>modcp</prefix>
+		<regex><![CDATA[modcp/(?P<file>[a-zA-Z0-9_.-]*)]]></regex>
+		<class>vB5_Route_Modcp</class>
+		<controller>relay</controller>
+		<action>modcp</action>
+		<arguments><![CDATA[a:1:{s:4:"file";s:5:"$file";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909921">
+		<name>privatemessage</name>
+		<prefix>privatemessage</prefix>
+		<regex><![CDATA[privatemessage/(?P<action>[A-Za-z0-9_-]+)(?P<params>(/[^?]+)*)]]></regex>
+		<class>vB5_Route_PrivateMessage</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323361";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909922">
+		<name>subscription</name>
+		<prefix>member</prefix>
+		<regex><![CDATA[member/(?P<userid>[0-9]+)(?P<username>(-[^?]*)*)/(?P<tab>subscriptions|subscribers|groups)]]></regex>
+		<class>vB5_Route_Subscription</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:3:{s:6:"userid";s:7:"$userid";s:3:"tab";s:4:"$tab";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323362";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909923">
+		<name>album</name>
+		<prefix>album</prefix>
+		<regex><![CDATA[album/(?P<nodeid>[0-9]+)(?P<title>(-[^!@\#\$%\^&\*\(\)\+\?/:;"\'\\,\.<>= _]*)*)]]></regex>
+		<class>vB5_Route_Album</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:2:{s:6:"nodeid";s:7:"$nodeid";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323364";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909924">
+		<name>visitormessage</name>
+		<prefix>member</prefix>
+		<regex><![CDATA[member/(?P<userid>[0-9]+)(?P<username>(-[^?/]*)*)/visitormessage/(?P<nodeid>[0-9]+)(?P<title>(-[^!@\#\$%\^&\*\(\)\+\?/:;"\'\\,\.<>= _]*)*)]]></regex>
+		<class>vB5_Route_VisitorMessage</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:2:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323365";s:6:"nodeid";s:7:"$nodeid";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909926">
+		<name>blog</name>
+		<prefix>blogs</prefix>
+		<regex>blogs</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:2:{s:11:"channelGuid";s:33:"vbulletin-4ecbdf567f3a38.99555305";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323366";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909925">
+		<name>blogadmin</name>
+		<prefix>blogadmin</prefix>
+		<regex><![CDATA[blogadmin/(?P<nodeid>([0-9]+)*)(?P<title>(-[^!@\#\$%\^&\*\(\)\+\?/:;"\'\\,\.<>= _]*)*)(/?)(?P<blogaction>([a-z^/]*)*)]]></regex>
+		<class>vB5_Route_Blogadmin</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323367";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdaad6aac05.50902379">
+		<name>new-content</name>
+		<prefix>new-content</prefix>
+		<regex><![CDATA[new-content/(?P<nodeid>[0-9]+)]]></regex>
+		<class>vB5_Route_Newcontent</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:2:{s:6:"nodeid";s:7:"$nodeid";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323369";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909980">
+		<name>sgadmin</name>
+		<prefix>sgadmin</prefix>
+		<regex><![CDATA[sgadmin/(?P<nodeid>([0-9]+)*)(?P<title>(-[^!@\#\$%\^&\*\(\)\+\?/:;"\'\\,\.<>= _]*)*)(/?)(?P<sgaction>([a-z^/]*)*)]]></regex>
+		<class>vB5_Route_SGAdmin</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323370";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909981">
+		<name>sgnewgroup</name>
+		<prefix>sgnewgroup</prefix>
+		<regex><![CDATA[sgnewgroup]]></regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323371";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdac93742a5.43676037">
+		<name>sghome</name>
+		<prefix>social-groups</prefix>
+		<regex>social-groups</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:2:{s:11:"channelGuid";s:33:"vbulletin-4ecbdf567f3a38.99555306";s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323372";}]]></arguments>
+	</route>
+    <route guid="vbulletin-sgcatlistaac05.50909983">
+        <name>sgcategorylisting</name>
+        <prefix>sguncategorized</prefix>
+        <regex>sguncategorized</regex>
+        <class>vB5_Route_Channel</class>
+        <controller>page</controller>
+        <action>index</action>
+        <arguments><![CDATA[a:2:{s:11:"channelGuid";s:33:"vbulletin-4ecbdf567f3a38.99555307";s:8:"pageGuid";s:35:"vbulletin-vbsgcatlistf2c27.60323373";}]]></arguments>
+    </route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909984">
+		<name>activateuser</name>
+		<prefix>activateuser</prefix>
+		<regex>activateuser</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323374";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909985">
+		<name>activateemail</name>
+		<prefix>activateemail</prefix>
+		<regex>activateemail</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323375";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909986">
+		<name>coppa-form</name>
+		<prefix>coppa-form</prefix>
+		<regex>coppa-form</regex>
+		<class>vB5_Route_Page</class>
+		<controller>page</controller>
+		<action>index</action>
+		<arguments><![CDATA[a:1:{s:8:"pageGuid";s:33:"vbulletin-4ecbdac82f2c27.60323376";}]]></arguments>
+	</route>
+	<route guid="vbulletin-4ecbdacd6aac05.50909987">
+		<name>node</name>
+		<prefix>node</prefix>
+		<regex><![CDATA[node/(?P<nodeid>[0-9]+)]]></regex>
+		<class>vB5_Route_Node</class>
+		<controller></controller>
+		<action></action>
+		<arguments><![CDATA[a:1:{s:6:"nodeid";s:7:"$nodeid";}]]></arguments>
+	</route>
+</routes>

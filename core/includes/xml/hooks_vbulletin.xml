@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hooks>
+	<hooktype type="announcement">
+		<hook>announcement_total</hook>
+		<hook>announcement_after_list</hook>
+		<hook>announcement_no_announcement</hook>
+	</hooktype>
+
+	<hooktype type="conversation">
+		<hook>conversation_userstats</hook>
+		<hook>conversation_footerleft</hook>
+		<hook>conversation_footerright</hook>
+	</hooktype>
+
+	<hooktype type="editor">
+		<hook>editor_input_text</hook>
+		<hook>editor_input_link</hook>
+		<hook>editor_input_video</hook>
+		<hook>editor_input_photos</hook>
+		<hook>editor_input_poll</hook>
+		<hook>editor_input_gallery</hook>
+	</hooktype>
+
+	<hooktype type="footer">
+		<hook>footer_left</hook>
+		<hook>footer_right</hook>
+		<hook>footer_start</hook>
+		<hook>footer_end</hook>
+		<hook>footer_copyright</hook>
+	</hooktype>
+
+	<hooktype type="general">
+		<hook>topics_after_sticky</hook>
+	</hooktype>
+
+	<hooktype type="header">
+		<hook>header_head</hook>
+		<hook>header_toolbar</hook>
+		<hook>header_tabbar</hook>
+		<hook>header_navright</hook>
+		<hook>header_before_content</hook>
+	</hooktype>
+
+	<hooktype type="profile">
+		<hook>profile_activity_start</hook>
+		<hook>profile_activity_end</hook>
+		<hook>profile_about_posts</hook>
+		<hook>profile_about_vms</hook>
+		<hook>profile_about_general</hook>
+		<hook>profile_about_links</hook>
+		<hook>profile_about_sectionend</hook>
+		<hook>profile_basics_end</hook>
+		<hook>profile_contacts_end</hook>
+		<hook>profile_tabs_1</hook>
+		<hook>profile_tabs_2</hook>
+	</hooktype>
+
+	<hooktype type="settings">
+		<hook>settings_tab_list</hook>
+		<hook>settings_tab_page</hook>
+		<hook>settings_profile</hook>
+		<hook>settings_account</hook>
+		<hook>settings_notifications</hook>
+		<hook>settings_privacy</hook>
+		<hook>settings_privacy_profile</hook>
+	</hooktype>
+		
+	<hooktype type="screen">
+		<hook>screen1_section0</hook>
+		<hook>screen1_section2</hook>
+		<hook>screen1_section3</hook>
+		<hook>screen2_section0</hook>
+		<hook>screen2_section1</hook>
+		<hook>screen2_section2</hook>
+		<hook>screen2_section3</hook>
+		<hook>screen4_section0</hook>
+		<hook>screen4_section1</hook>
+		<hook>screen4_section2</hook>
+		<hook>screen4_section3</hook>
+	</hooktype>
+
+	<hooktype type="subscribe">
+		<hook>subscribed_start</hook>
+		<hook>subscribed_no_subs</hook>
+		<hook>following_list_start</hook>
+		<hook>following_list_end</hook>
+	</hooktype>
+
+	<hooktype type="widgets">
+		<hook>blog_display_controls</hook>
+		<hook>channel_display_controls</hook>
+		<hook>conversation_display_controls</hook>
+		<hook>group_display_controls</hook>
+	</hooktype>
+
+	<!-- Test Hook -->
+	<hooktype type="Test Hooks">
+		<hook>generic_test</hook>
+	</hooktype>
+</hooks>
+
+<!-- CVS: $RCSfile$ - $Revision: 71405 $ -->
